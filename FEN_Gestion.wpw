@@ -1,0 +1,342 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Gestion
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Gestion
+ identifier : 0x2f05ed4b4beca61f
+ internal_properties : CAAAAAgAAAAfabcYFxWXavdEEEeIVNR9LLn0F9FotaruKgP1q1uxI8L3YrhPt//ZjoJZlSnVdRtoQ9s27kULTZ/3qGzVB7/9e3fuJMU9cJQnbvWJGDBZdtflxJxT09ICv4Rt6Ym9WXwo4kBxO1ltkayPdxWz3STT87W7MwIT+jHcEJQfV8GLPBjQ/O3qF3DcJQY1KRkX/n509DZCSTAuH32zkgb020bPoihuj7ax8CoEcyfYgWLKJlKGVguMZsg9K2MN2F/sf9XVtvYVoVZpF5lGD32Mt8eDy7TPd2QtlWWcczeaZhiR8tA29jeBMYT4okXCdzBmBL5RAt/0BANjArk6W9hSsJT4jUwSKYSyfI2txQIyj1gRJsI/h7yWlEC7tuiVdfYCSEDAf6zDwRWG3HcdS9d9DN8UXx4cvyN6BK9PJD/Q2AhNMp8KMoB8pG2Vj8otBNpsxC1tMLytrMA4Qftif7XjMyNaDH0/Xk+zVBzEhRCNcQfywqJZN7+/txxqbi0uXQCPWPn/rB082hRRUam2NumsSIewBVeZnXejl0Daq9Djys6KgXFROIJ+ipEuh2B9agPnCib7vvwTtDfn2Ng5atjYAzIJExWLe/xBu9FyX3/sv8iOpVNl4Paxf3o4TQFs2w1dlqo3pp8RM/X8uxSzVO5QurK26q1lpsJhC6lT6pQrgoqwU6aXyqTlpfHEoTH+oeexILfUYzGtu2S7G74SheRTfocD+Jh94l0ykO6N2vMIDt9NxdKRNjUYQ1qHgsnq63Xve6ofE+kgSLlVVQNeIPO1ne0jgzbr+flossET0HyQNKfr93gKL3CMQTSeB3LD2A==
+ properties :
+  width : 593
+  height : 364
+  heightMin : 487
+ controls :
+  -
+    name : ZAB_Vue
+    identifier : 0x259a7a2d361a7d8d
+    internal_properties : CAAAAAgAAABxM+MTpQFhvKpN00FdXEglmygRwc1sUvPoLxZFFmjPuyudLGU6lLgNbg3AZeUQ8hfHFNAHOgpe89AvMVhCaO03gv6Zqu1ETRa0weDTmW5rr06SQAVjrdEc1KsWNnbRZFd1t47v8p2tnGHC6pwSR0RwHQJjHAOJ0J+K9urW1bZt7S2OTpVBVHH3QJSdCwNTvc+B8LjvXKWHRJnt4SLp7nZ4X5sHh53NJQW8b1xd6frrJVbwDQqd2IUhZDYLZVeqFF62v29H2yhnF+42adPZWcGxLwA/C8L4+lwVzA0twtzYijBKXygj8zU+2kbikBodpygwV2ftKyjLQNL91DrusB1zUqfi6/oH4nGyCyeDn+RembtX1rhUPFitgxQI3kAceiko36Bm81P5qtgjy87VemMNo3lIAcsF3v0jSe6lKyPVSVd1PBIDpZjuUYQ3ExsEXt7JIaRIKDisYMKSW3MKToR2CFmXkqZclWnNDtXzWFogDBvkwJD68SZK6JsMgbxRmr7mWqyXSobTqX3R1smeLpqyaEIS/IBUvIaz6AFCi6w+E+Lkfez6MNrxjq/NQJmg2skBbVoTu1T2Mf01srFlHJJF4KMBVV0mAqd8DK02
+    properties :
+     width : 593
+     height : 364
+    controls : []
+    type : 95
+    code_elements :
+     type_code : 127
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x24bfb00d0f5012cf
+  internal_properties : CAAAAAgAAABEefUIHdtP9ts57RlMKANgFz1nQdP7fWVKTle3Ezo8X+c0gtRVYJyW7Qkt9iT2C0cJpRv3CtwPHLvVv20x7TxktIc5jgMOrrugNTB6ApdmsPiWjXVrwvJTdjc1f3LLNMlzOCTBb3ISqSlkBd6+cFlIG7y8DUG7yW951WZ9Uqt+SBp7OdoJ8JgGrtuk0crJumAcwAhA7r+nEhqSnCsqBDtqCvWvliddshnweOsox8jfvKlvFTQM+XpXq0b/A7G8cPOwid53Y+3tir50CLQaO/8a7Fj+03Dc/0uDiEE8XoZB8G+8qnIC1MW+upYttc1WHX214cl33cnCLQNkxhDKcew9w0qbr2GluMhsMpi+XoGAxMQUN/rRJoP+qkg2hSX8gnZz8SlnsTd2kf5K0pUhwthRFSllyEtOyU4FOhXLgha0vQE9m2p2/Pu7brQ41ultAWFYAG1i07bgeC9X7ykeYCwoThECvkwpYr+FZYkcVHYcF38lvMax4ONMB1kF9ZhS5uWxojpjlv9ygH9UkD0Brw/H2gASHqcoI1XHF7Q3+PWViQyY7kuMNJypqU36KK5mjOw6lCV7TONmZu96LeKs8i3S1yitc3A2SPUkph2o7+6ib0i8UBw6efBvv6WS732z5xqFk2jteEH0X709jJWuOZGQSCho+vPmbfNykm81j6/TfTo0Ol5KohaNZlV2XhPv0rk1jfionSA5yZBPzN2pKZM=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      code : |1-
+       
+      type : 18
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+    -
+      code : |1-
+       
+       AffichageVue()
+       
+       SELON ACTB_ActionBar
+       	CAS 1 // TDB
+       		FI_TDB.AffichageContenuTDB()
+       		
+       	CAS 2 // Clients
+       		FI_Clients.ActualiseZR()
+       		
+       	CAS 3 // Rappels
+       		FI_Rappels.AffichageRappels()
+       		
+       	CAS 4 // Commandes
+       		FI_Commandes.RemplirZR()
+       		
+       fin
+      type : 17
+ menu :
+  name : _Menu
+  identifier : 0x2a2505a900438be8
+  internal_properties : CAAAAAgAAACIQ8FkyGFYwCbjRN85U3/KT6WRjQHoh/Ihrb1n/ismAOpcFogMLN/TqVSw+F7iaxy8i3OdgpItxRhMV33ptSXLzZM5yYt6QWBq9/u4qVHaO47xcAHlqS8555mddq0BQ8AbcWTp6b64vKqtSeEemdmjdSOvf2jIS83Ll9Dbujk6T3MDcnBa7W8j3eEDJTFduNm5pqHLLSZXJ0jUzogNgt4Ul170ITRaaDRrRsUD+u4Q34w/KktxpXnlT09/o16LoWmzPHCXSAtPmDfqn7NF26UJdSR0Kx0krO9pztDxEQ==
+  options :
+   -
+     name : OPT_Actualiser
+     identifier : 0x24bfb0a10f5354df
+     internal_properties : CAAAAAgAAACXrSdVQQ0BdLFkXB/pkkQoPyLf3Vcdjv6BhNXUU0NuJWPfL73WGgJwDu5uQJepEnW6WXJE/ww8qi+Pt5MSNauA82BeKcp6JnZ8spk0WdL57yflPGAlijLK6LlEzZhhdlsjpNtVgPSeTzoh/mrcbKeI6kT+utBv9ZJ/nAFFZeM8/+/912Vh3CmNurwGv2TAWhrxvMgU/JGYiwvgsAt23ByfY4henfnslWbySLuojDg1lcblKVj/6SgrS9h+5AC6U5pZt6hNMkW+TZQka7oKyxgYzvGMsx1f9i2n+qSgfKrvI2kYNMRvF1XF1a7L0A==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+          gdDateDébutStats = FI_TDB.SAI_DATE_DEBUT_DASHBOARD
+          gdDateFinStats = FI_TDB.SAI_DATE_FIN_DASHBOARD
+          
+          
+          ExécutionRequêtesTDB()
+          
+          
+          //Remplissage des données du Tableau de Bord
+          fi_tdb.AffichageContenuTDB()
+         type : 32
+   -
+     name : OPT_Nouveau_contact
+     identifier : 0x24bfb0a10f54553d
+     internal_properties : CAAAAAgAAADWexdETRLuF3iiduxOZ0TJTe3B015f6HWIRoYbTvOAGG9gAT+K7BgRNu4lw9IIgo5RlUQ9ulXJy7hCHrV5x7rRlyAEOVCSkgDmDlkTMr4wAJgyOjs0MnEDfKdnfYILvtlunTSXfpgmZE4voDULWC/IuhXjfnPLrqzgF26oSg5fYC55o/ZQOA5n8pIXn66GYo5SpJPckXisb4EsH/ZV1TKHmqEsyCJ8LY1aMxqS9n1T1xFHMJIA4Km6b4Z/CgwwmqoCnUoajPm0K9CRI01fBpWa2/XUmh+Hc+TPmyNySMIXP61RqjZhRoqZtjIJvOh/MYbXDrhdcIkQXQw0
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          OuvreFenêtreMobile(FEN_ContactEdition)
+         type : 32
+   -
+     name : OPT_Nouveau_rappel
+     identifier : 0x24bfb0a10f55559b
+     internal_properties : CAAAAAgAAAB33IhZYoZW8p7UwLJgeX4LjycHgTiBGr/WcEjBiD3iEqlC353sDnoNAioJ73Z27uChYYdjn/h+/5VSDVHx2Sew5gFoNKciQgls+rwrnoppNZKBrUI4OHedIoUF26hhxd/w1cgv0qxCNLDLiGEbcJ3eVOVLimevtsDqHYY7av6c5wu8dK0tazkwW9noThMpMePjE0if8seHsM4nfNBvq8R1SPfa2jx48xv8BaIKJPQ6NE4iUz9HeUD7tO/o8SVXjZoSr5iMmHXoP/RlF9Hfzi0KcwWMkuP7b5hnT7NifP5j/xXFKr5FekaFth5ZbFTjZU4HOmcG22bzvq2V
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          OuvreFenêtreMobile(FEN_RappelEdition)
+         type : 32
+   -
+     name : OPT_Nouvelle_commande
+     identifier : 0x24bfb0a20f5655e9
+     internal_properties : CAAAAAgAAABwz35QozA8lxkWJlfa6gsjIJsaKDeFUIfeQOhJv/GRxjQrjGQm302XUranJQOtQi8s0tlzIRRdtJhehsMPhQZVYvxmqV79CnPngbogcTox+xlNublWbzr4D5nNWi7d5KNk97QRuo8jSS//WPJn6LntWhJ8QyC2Ymu1CL2ZC8Ihs1O6dDyhurniHXdyAbcGyQ05junj/mLiRhtgGfK2q+DPlvgMPZVH+18SDtbTwQR/0aMihhL7MOWzngIFYIzacWZfy7Y/sHGJPhSiujjQmH9TQp4NggytiNv0bCz8OY5PJUgwXB6c3papwI1t2vtxlAYcM7dOCfW2vaBJ4Q==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          OuvreFenêtreMobile(FEN_CommandeEdition)
+         type : 32
+   -
+     name : OPT_Déconnexion
+     identifier : 0x25a8f6b513e4d4ef
+     internal_properties : CAAAAAgAAACe/CY1zfmS/pVM9uJmWLiw8P3rpz0F07f3KbHB2k66WB7npyz5HBr0emusLgf9edc8ilEPMZfZ/cw00/iUsFycOWLhd4PPeNOh9WNbIYfrTkypPuvluG/2pIUPqDvEjrcCoptOAgq/UB6g/ALRePknfMAyCr2GAcrvLbi57JuG1K3UgbM0YPXCEfhQJb/MX30YQqf7OczC8p4GjWEfMvDCznMzZH0AvFWCBJ1XPuuBrMboGlflKRqHA8idGHAAhRct5cZYoy3KLViDPMZp/mt5DmGdhAowNl0Yi6jMcRRXWKbCd8NfChCX2TVZwAG2n4B3ibwnXF2SsKo=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          
+          SauveParamètre(CST_AUTOLOGIN, "")
+          ferme()
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADPKdm8ON2zZA9ogOiS6KYIFYNZlnE17zqSskTXCnUIJu3GvdwFwSkz2oSsXLVmVGlTPhLzO07mJSYTXg+jbRLFlpgH5Py1LlRuHcTa/mZdhqdcNibzz/GEXwKTCA==
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE FEN_Gestion()
+      
+   -
+     code : |1-
+      AffichageVue()
+      ClavierVisible(faux)
+     type : 34
+   -
+     code : |1-
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      AffichageVue()
+      
+      SELON ACTB_ActionBar
+      	CAS 1 // TDB
+      		FI_TDB.AffichageContenuTDB()
+      		
+      	CAS 2 // Clients
+      		FI_Clients.ActualiseZR()
+      		
+      	CAS 3 // Rappels
+      		FI_Rappels.AffichageRappels()
+      		
+      	CAS 4 // Commandes
+      		FI_Commandes.RemplirZR()
+      		
+      FIN
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : AffichageVue
+     procedure_id : 1734759186638012355
+     type_code : 14
+     code : |1-
+      PROCEDURE AffichageVue()
+      
+      OPT_Actualiser..Visible = Faux
+      OPT_Nouveau_contact..Visible = Faux
+      OPT_Nouvelle_commande..Visible = Faux
+      OPT_Nouveau_rappel..Visible = Faux
+      
+      SELON ACTB_ActionBar
+      	CAS 1 // TDB
+      		MaFenêtre..Titre = "Tableau de bord"
+      		OPT_Actualiser..Visible = Vrai
+      		
+      	CAS 2 // Clients
+      		MaFenêtre..Titre = "Clients"
+      		OPT_Nouveau_contact..Visible = Vrai
+      		
+      	CAS 3 // Rappels
+      		MaFenêtre..Titre = "Rappels"
+      		OPT_Nouveau_rappel..Visible = Vrai
+      		
+      	CAS 4 // Commandes
+      		MaFenêtre..Titre = "Commandes"
+      		OPT_Nouvelle_commande..Visible = Vrai
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f05b91401ef6668
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      fr-FR : JJ/MM/AAAA
+     index : 0
+   -
+     text :
+      fr-FR : "Tél : "
+     index : 1
+   -
+     text :
+      fr-FR : "Mobile : "
+     index : 2
+   -
+     text :
+      fr-FR : "Fax : "
+     index : 3
+   -
+     text :
+      fr-FR : Commandes du %1 au %2
+     index : 4
+   -
+     text :
+      fr-FR : "Il est "
+     index : 5
+   -
+     text :
+      fr-FR : Ville
+     index : 6
+   -
+     text :
+      fr-FR : Type
+     index : 7
+   -
+     text :
+      fr-FR : SaisiLe
+     index : 8
+   -
+     text :
+      fr-FR : Société
+     index : 9
+   -
+     text :
+      fr-FR : NomClient
+     index : 10
+   -
+     text :
+      fr-FR : Plan non géré
+     index : 11
+   -
+     text :
+      fr-FR : Voulez-vous vraiment supprimer cette commande ?
+     index : 12
+   -
+     text :
+      fr-FR : JJ/MM/AA
+     index : 13
+   -
+     text :
+      fr-FR : Tableau de bord (%1 au %2)
+     index : 14
+   -
+     text :
+      fr-FR : Commande numéro %1 du %2
+     index : 15
+   -
+     text :
+      fr-FR : Fiche client %1
+     index : 16
+   -
+     text :
+      fr-FR : Commande introuvable
+     index : 17
+   -
+     text :
+      fr-FR : Fonctionnalité non disponible dans l'application Android
+     index : 18
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

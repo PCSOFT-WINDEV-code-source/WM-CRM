@@ -1,0 +1,123 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_WidgetEvolutionCA
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_WidgetEvolutionCA
+ identifier : 0x27ed0d2e06dbfa34
+ internal_properties : CAAAAAgAAACY3D1E8RZ7mQrEL8/eRlIJPnG5fRTbFqR+BXraV0GPAmS9P/v+YUIXYB8UemHktmqhmagObmCIZiMlt1YMjAH5yFnQXv/Yw9Us3jb9glPss8AaoVM/eFSoHx5BIzm+PBGhg+vQDVSjhHy34J+FBlM+CdJ7fLbIibihn35L4gDCgFoYIc9U06wt2x2VCOlz5TqVx38OnBJnGUXdIsGKVR6StrknAmkpQPqmwypB1JvqkZJiHw4U31Ubb6A6opps8SuJIUZOCKKksGxbyStQbdjazR5eusPmvW5g372+aBHiVCd57gmES8znv7eImi5DpgKtbuUR2awMq34BDOoZNt6qxZ5KCSZeVTKB83mKmL5LcIKDRY2AdV6SVJPptmawd73iKQbQTCoRycWkqD2Bvq+O+xAHHtw3l89JN7TSLOsG34ClUS9/Ag+bS02UW/zNWjFLktRdiPoWCRPLycebuWWnzEy7aq2GaxO2N5ZMRV0VfUk7j8FpyAuD/73QNQG8S6uohisD/H816Zd1kjFVeMXuZwttSH1e7/mdhejd/KQ6GvTytYviYU/xCg7CU36f8neQerWd5w+xNvYnVWZqUOmkWdzR8EEYZMgfd+QlwCj9TfzkYXKDPJTteKeftZn5Xcs73BiW6IPGHpZ4Nsk9EKh7JJfqzYwFgJ4T4vBln53lCfcBHjgAxVUDgIhyvB1LLLWrd5Ypg0pSPEqk61xDmHJPtKRxFJA5owAvyzK5cACny8/hridxoxnctnll0EMlp6TUjXXdBk522rA=
+ properties :
+  width : 496
+  height : 200
+ controls :
+  -
+    name : FI_WidgetEvolutionCA
+    identifier : 0x27ed0d2e06dcfa34
+    internal_properties : CAAAAAgAAADsj86u5KIk0TDZDNoClRZ5Vq7Bh10CAnQcHSxJcqmszmyobGOQY9WqGDYqzaXHiLB+QeeDYX1vN/d9FzqW3inlBzJlGU9zUW8y2gsuU9eKoIb59tqGWc8+79us8ZedjYbafcKWHBcUHKw++N7XysSx9WJIWyg6Cqp1L64G8g72Y/M4OLHZyf4fEf6wz4+2yLfBA1rLHkoHNjCfSWZSwVIjxz1SKjU8Kmx4t+BV8I9tzg6cIR8i171GX/yRCFjgBx+ZyN+fBeNVhNiapouZdCUDswP21Hrin9zeXlmM1EU1F0tnUB0p0+BNojBaXDdI7Ph9CNXJnWtfI8GDqrvRFSRYODd3FAQ5svyh3X+T8UsZF9XxvDdRYbYML2sWMTN+pacHkeYB4sMxP/B7gw36Divq99h5ZEIEUdk+HPzKZF3NSqjDTDms4YOz/tnHvZIKDXoIX268uxcBgnp7s10ONJNw1tAi06GpX7AxaBLktFSDQA==
+    properties :
+     width : 496
+     height : 200
+    controls :
+     -
+       name : GRF_CA
+       identifier : 0x27ed0d2e06ddfa34
+       internal_properties : CAAAAAgAAADVBVv3bhEkzwkH3zYPEiROUrscyX63Casq9vRQSpCy4oKHGwu8oeDhDs5jFnFBXrhKocLJaIJdbRhWpRPZdxu4oumnw1gyFIAXanI8GjQL7ne1I1wgaCs8nPLwTcasit1SMHbEYIXP5p6HqHKL/vDNvLD+njXPMd38ACXLY/ld2hxF8PPdYou90iVvv+uqZlzTpIjaIVzRqslssb4tg8LS+GSrDwKx9QaHGu9Zbi9upWN17Sx+6jlPvdDvYvYJcRZLAXGFeFmwnP8akVKGPNcf0izcJWZXYZ+PVdsY4e9gbb0vU/d1XZTQ8SS1RGGRj+BDumgcHEQVr15Nn7CcCAKk0p3KsYC3z0qeKhkvIb2TAOgRh6FHjPHcrzE7RpZ5PNarmswPjVo5UhuHUxH+zmdFUOm7oqz9yYFDphWD3zfcYlUDKXxVU8V3fsbZ0OkJzmMzIvDPMmXTmXx+DcYCEP0rp2QLyDdtII83dUkUtM6dQGI4iJ79uJU59MEC70FRdfBcgoAJIzvbbnbg0WC2uEZt/b4l5AsgSSNZErTf/hXkO5x94+s3fX+icgq+1ejmumiNHNgrpV6ZE/zEmQKI1Q7OCkr9Vl+mlsimA1TwEmhEsLgUEs45/aC6sCBBJO9IWGP7mdKz6jSDyxiZuBqRvTU7mJpWleYSx5GnqJN+pt4S6iHamJY2w8o0OYJ/M57qlWaxtrTRGa7bw6GQaZuZh70h2tUjIxqaA4rkH1/VdjG1duKhSgGofU6PuzrnA8dekPn5pG85wT4MFyapPMqniI1Ycw/i7Orz+CzVOFJMGIyCiDHO3G/oyMItFntp7DJakiszvF81JH3r7C9VFZUw3KAeVgnU/T7O71lLjhVWBpzYMLJI3/OfpW1DQM9WZwyTK6bG/rxk2q3ctBbsBoG3bhnUNpqK8XSniiArt35HTwQUjtu2+riUqClpeDT1fz8rT9uaO6T3jQIN+vEKI5KlQCgQW6P1VJ0TnHJHCBKUqhtnq/g9ax8ShFiBVy+Ayj2C+EQVPP2qgbh/kX2j6ZUs7SzLwa9e2EV5KOkAeqEJjY6GpW8z/HG6acUPfNrEcAAX7bX+YRQp9XxWkODZGOsscJV7e4TfjGkiSEr4+XiB7RazJfzfBAq3n/95pSgHyl54wvsKr2vuGuZkFqgHPllt3l86A0upQZxL3tPtSpHf3dNT7c51NfPkWHtBjZDEKQUewLYit78F2HynzZg7PFJk0P8j8/6FfJU/hDDYp5eUU5U+Fc9l25lUMNwvOBelA4nsReunCdO5KbA=
+       properties :
+        y : 35
+        width : 496
+        height : 166
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes : []
+     -
+       name : LIB_CHIFFRE_AFFAIRE
+       identifier : 0x27ed0d2e06defa34
+       internal_properties : CAAAAAgAAACan4GsBogBV1R5VuXXWRXAUnJUqPBQcsmXWWH5Xkbuzrplo3N/Gg9Yc1MYj0i2NrOooU4sg32r/mwCQEUbc2URNl72oUtvVeglqYR9isYQPf9L8uZS2mXigcb+qg1eg1kTzg/IIPPzWmDPKcCvpNKhhFaFsp4Roma7gWtzyfXAYGf7XfgGUdyXVbKqtkUtNbk/D0SfielqFdfYe6RSr2tdwWiMlA8O90lSL+oZMB+dXLBKe1WYnZXMzH7ToRUSrMTJVX3+F6x+O099Jv5eOoIt7LABGwKVrQ69WdSPxolYZDpgfxGyQEGhiiNbvZ2kPfmsW2k6ECqGWXSrGFbLpqIv5551pE8hH4lf+wS1Cjg3ooIrzyDukiTRvIr5SqtqHB3fUj5mAANViY35G2Y8sAlpCx4GFTXYUFkrLieTqfD9/XOORFqKoIEokT73GrDl3DHEvkiilsSAiWqRMYzAfRrMdrt+AAFR4FPIVHRT+mfQl/rIvf2niYPtCobpLlys8Vbm3OGBo1kKI18rQGnBQlW4bi7c+i+qt0XBhqN+z76arUf8VQs7
+       properties :
+        width : 496
+        height : 34
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE MaFenêtre()
+         
+         ActualiseChiffreAffaires()
+      -
+        code : |1+
+         
+         
+         ActualiseChiffreAffaires()
+        type : 198
+ menu :
+  name : _Menu
+  identifier : 0x27ed0d2006d0c3a3
+  internal_properties : CAAAAAgAAAAjNrtQM20G/vHT8xafyQRcEfaRXDXWh8UgyEcAQqsBuhJyCedGB3ugDZtVwED7j8xxXRxyXFVAVFXPeG4g5CI2xC5Ey9gxcOjv9y9aj0C02D3ORuV3mLi43IHiRFRWWZx35QbO0WTxqMJr6JO60vO2rR9jFPUR1nfuw1QIXFjmyB1twNgxoqkmQUzpROdfplf2wLpHaOfoZNxIiKWD+3aM1WpSKGjd/fvHmlmoDqmJYGcwSnPYYNLyspFVgrMmNWakk5v9GgLTPuG1TByOsJc1e4UdB6HQXCCQvNxTLmRKtyq84OS2YiXCUR9ZkryVECM=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : ActualiseChiffreAffaires
+     procedure_id : 1724061896262338251
+     type_code : 14
+     code : |1-
+      // Résumé : Actualise le chiffre d'affaires
+      PROCEDURE ActualiseChiffreAffaires()
+      
+      //On supprime les données précédentes du graphe
+      grSupprimeSérie(GRF_CA,1,grDonnées)
+      
+      grCouleurSérie(GRF_CA,1,RVB(163,0,72))
+      
+      <COMPILE SI TypeConfiguration=iOS>
+      	grBulle(GRF_CA,grFormatBulle, "[%CATEGORIE%]" + RC + "[%VALEUR%]" + " K€" ) 
+      <fin>
+      
+      //Puis parcours de la requête pour ajouter les données dans le graphe
+      nIndice est un entier
+      pour TOUT REQ_CalculCAParJourSurPériode 
+      	
+      	nIndice ++
+      	
+      	grEtiquetteCatégorie(GRF_CA,nIndice,DateVersChaîne(REQ_CalculCAParJourSurPériode.DateCommande, "JJ MMM"))
+      	
+      	//Divisé par 1000, car CA exprimé en K€
+      	grAjouteDonnée(GRF_CA, 1, nIndice , arrondi(REQ_CalculCAParJourSurPériode.la_somme_TotalHT / 1000))
+      	
+      	
+      FIN
+      
+      grDessine(GRF_CA)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x10fae9f21c531566
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

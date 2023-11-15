@@ -1,0 +1,116 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_WidgetTopProduitsVendus
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_WidgetTopProduitsVendus
+ identifier : 0x27ed0d9a0701a062
+ internal_properties : CAAAAAgAAACe4T1FR96HwA5XgeZacgiOEjZ+LY4dex4FjtNKjRidETHjBgWznSTrT9VD5aVn+Cp2ean8Fd07yAfNFob81FGxK1JxMMjb6nm/K0o0dTTv854GCDesaR+0cYja8HMheFvQSJ9SwW8qYZytZxVZkxPDOW8ad9BRbWM9OY3LQ5b4WCY3ZM8uvp10gHO7JvW5HQXPLDIh/RBheBB6V43TaTh/jOVxvVFnFtjdmMFhxu7dpT8Hvs2WnlBiOy6JRNjVX4xci95VieBnBt8R7Nuf6y6+sfjoABeaaUdHZAFgkhZS9YImkWqsr4W7U74iUhMuKgZc5jJZNhXfpkLSAGrXEkcjWM24WzFah2z0zmqlyUk9A/OVeDL2UmNDhElZ7oXZbRlfN6OC6VU6DG8ujJBSysKVQQRggOnsx5jEL0Fxm2WaBN1M6jDl1RuT/AdrHBTtbDEUFcCjqE6koypLPWNeZUS5aN5eI8IeZnUfwFZP3M993DLcWzbHITdJLkC11g5hhwjo2G8nBAXuD6WaDzI0b1GjWcCKt7KrGIx1KEJ0OtaRI8ejZrIOK32psGz63disRPt2MId+ICffU25X4YF++RYM0P2Je7OwzNv5rvFcf74LlNF/8zhnTChjTWP5WqpzLgGHJq+z7exiDIZHrfJN3Ml4K+ZQB2VBEuWvfQEmA71C5WaUm0VAa56FkjM/o1dnYT93FewRiJ6Qm9eZhKV4GMqZX7fvzg2qPsEBQLJ1vc6NRSd0m3kYA/5wc7RghQgZDgjdHlJOAF+VjDcbV6/XY4g5NHaJqw/9Dh5mt38=
+ properties :
+  width : 496
+  height : 200
+ controls :
+  -
+    name : FI_WidgetTopProduitsVendus
+    identifier : 0x27ed0d9a0702a062
+    internal_properties : CAAAAAgAAABGbUK+3zPvybg1p3UYP+m/H9yVnCwpjJfGF7xP0Vag1ouQWn3o4vz7cENjZUmBeLVN7iSQ7NAIZEv8Fn6LiU248JgmNWRCpmCbcznACnPl6uNmKLZYX/ldlvhvWS/VWAjdcdU+lnZ5Eu/D27iJIlUBvBbNKxpOW6qapRQgZA1zLs5DSDMGBkriBkS2VEpAbKE4TaZc1CU4DJvATryil5m3jBLMkstsESBYa0EkjKMYu4JWVFaBUTytK/LmupnKiz1HZBEccmJKNq3xPApOWX4vrMn1CxzQb13qcHA9yNphglz8rD+8GKfvNhS5oFh8ZysizxhYw8oOQx1sPJamdltn0012Vem3Km9oM4hIMozuBSE5WSHQ5/QXFw+GpjFE43577Mg3HE0SelkGDgbUo2ttxtsG9BEUjSn5U/9s/WfPyYAvK2i0kh9BX15cdLbpYwOd8ZvgQ9BwQhTYZbO9wOm6cX6loljKV3Voq+1g0/A=
+    properties :
+     width : 496
+     height : 200
+    controls :
+     -
+       name : GRF_MeilleurProduit
+       identifier : 0x27ed0d9a0703a062
+       internal_properties : CAAAAAgAAACQ/tJeeERG/1318VCFQfkrlEW5QqiXmXcpJ9p8Dh1+rOPJTczTAf12YPm1ucPVN193TRwgyyBWC8am3PZgjxH9Zvm9AAjpTzulSy/yYzO8XvTR4So0hRCdvAMo1D8Ex6XTKNvgIfHz0ZESddFSx4/n+uvDe24X2vu28UbBPOXbWCK+KX042l6pyRy2j9n/5GED1yFsuFwX34b4293NmFS0FMDnoXeDyRLQrvkM2Hj1Piu5UCtFM0nbX7sMWphME4yrsMKJ7HQIqS8ldMS/rxszO64lQenopul62v5yeJIfLRj3mNpeGgusdgDbGxAvZgbOAZ6DY4JOgG85yoShsot/Zp1/utoZHvXeIFH47J0P7U+m0PbaR++ZQAfMdRdBZaMUGioymLhB5H8qLSyVXdvqpHf6nvGYox+U6B8zt5hbLI4DAKKaKvVszkb+85tb9tEkfqPcPOUj6Iwh9InQsLZIj44f8k8YntGaAOcyhAHEh6Wc/dcU0hTqGgM3pAWMDy3jt+uAe2sNiAZuYyvXwmC4I2lMSXI76OMU/jNRlcrm6FvWJl5whT8b29LiTfdV6Yjk4XQuh3gjnVKZA9P8KbZUrVPtnuVG0FxjF0CEr0NnuYWzycOaehe8aT8w70gHlkjuYHXm/8ivpOGMDdLRHEUnq9q/RKqHMruyKYAkqdyHgMifzVPbhnksnVF2+XUP6cnCxvZGn6IKcjU3KnEyrXZHI0MUylrUW3mALI/Z5gf1cNlkeaxBXbqbbbmqpjTJ13SLLv87BBqIs2s09WO//xWkJcpx49Hpyk6n+s3KJApuywgLUInDQow1gtU2v4pRJr7y+zbNIFARZxvcaPEYHc4Hg7KyF6KvPt6o90m0VOU0LVqkVNSUfpm19sBvPeufTmDzqxP5aYsooVNDa5HfNekOdJvXmA76VUxLd3X5yUN6qB8qw9WEJaDqUv6TDbAAbke2WKpNW+tjwopCt592FjM4XQGSO8I37nuxpnwjQGSj/A9oQkA6wQzfUxuuz944TUv2AWfww/w3sm9IuMhY+O7WZF25m9ULnp80+hdJAYS55uGoYnk+iz6jTKqdwb0oblRRL5YdHMf+9utIfnPFjPp/fGHQy36K6Ya4oV+Q44ISodinAn/DDeEPuxl3V/wDF99a/pfoX8S0e0EPVfRKK4snu9p2bbJ6CzD1fuTW1eXggD2JZlE1Pm29Ac2nAzz0qzzG4vfc+usZFu/DvCN8+tk6f4giVr7ieQz2aTrevsm8y4f7yxLxFiPVvb6sZbVj2UI/wnVdXIeUZHlkPzWxm0QUGIGVFU4CFJ4J1xcdIKPWurylFBn4tYHxgGcp4VbWGE9vMi8Cj6fMXEyHk6DwD1vWklAbeT0R/CfkrylzOxC2nsAV0ZAnqf2F0PdPdwCOyiIJ7ZPouepBPvbT3ZspT0X0L+NiuxTCc+Q0htqLdmGHlA==
+       properties :
+        y : 35
+        width : 496
+        height : 166
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes : []
+     -
+       name : LIB_CHIFFRE_AFFAIRE4
+       identifier : 0x27ed0d9a0704a062
+       internal_properties : CAAAAAgAAAAeMTshSILfA61OIKp+1FkRoVGYxZ3n41whlLgohwrEMk0jMlJaACwsIoip73NrL9BChTZxu1i9AXXENeWFDiI1loeMjwSbDoT+rKaHTN1b7ZGjLFTwlnEq2jMTYzuC3cHP6MIOisbuISEU6lwfsoXH9/QdClSC43fT2rWk2xgN439sIka4BBixfk+b+3hJ6BOtlb+LgrULZkOWFKFJgdYCyMhJjsaoCaFc6kDCZG6uzFRAxCnuqqYGT7SYyO48wcxz3/SIwig9bgHN+l7tJpUdIRm6N+1QoF0Nxt5Oc2oam4L8X5Agxjg1jLz/iGXVdEJNZ7dKI8attwZXb8LFGAgQBMTUriXNpOzmLv8qKMOR3z2ml0MahIqcg6hCed5+/a5gUKMVSYB1Jviwi5jD5TDkza+fsCXR/aUJE1v8FKcchezdS3rYPJJsusTdvNCNxCS/VcnSaPyXIj7+2AfILDGbn49Ohw41kc6PMRobLg8bL1+LHsgFHDrd7k24J+74Mwsa
+       properties :
+        width : 496
+        height : 34
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE MaFenêtre()
+         
+         ActualiseTop10Produits()
+      -
+        code : |1-
+         
+         ActualiseTop10Produits()
+        type : 198
+ menu :
+  name : _Menu
+  identifier : 0x27ed0d8206f644c5
+  internal_properties : CAAAAAgAAAAjNrtQM20G/vHT8xafyQRcEfaRXDXWh8UgyEcAQqsBuhJyCedGB3ugDZtVwED7j8xxXRxyXFVAVFXPeG4g5CI2xC5Ey9gxcOjv9y9aj0C02D3ORuV3mLi43IHiRFRWWZx35QbO0WTxqMJr6JO60vO2rR9jFPUR1nfuw1QIXFjmyB1twNgxoqkmQUzpROdfplf2wLpHaOfoZNxIiKWD+3aM1WpSKGjd/fvHmlmoDqmJYGcwSnPYYNLyspFVgrMmNWakk5v9GgLTPuG1TByOsJc1e4UdB6HQXCCQvNxTLmRKtyq84OS2YiXCUR9ZkryVECM=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : ActualiseTop10Produits
+     procedure_id : 1724062076651072625
+     type_code : 14
+     code : |1-
+      // Résumé : Actualise le top 10 des produits
+      PROCEDURE ActualiseTop10Produits()
+      
+      //On supprime les données précédentes du graphe
+      grSupprimeSérie(GRF_MeilleurProduit,1, grDonnées)
+      
+      <compile SI TypeConfiguration=iOS>
+      	grBulle(GRF_MeilleurProduit,grFormatBulle, "Réf : " + "[%CATEGORIE%]" + RC + "Quantité : " + "[%VALEUR%]" ) 
+      <FIN>
+      
+      //Puis parcours de la requête pour ajouter les données dans le graphe
+      nIndice est un entier
+      pour TOUT REQ_Top10Produit DepuisFin
+      	
+      	nIndice++
+      	grEtiquetteCatégorie(GRF_MeilleurProduit,nIndice,REQ_Top10Produit.reference)
+      	grajouteDonnée(GRF_MeilleurProduit,1, nIndice, REQ_Top10Produit.TotalQte)	
+      	
+      FIN
+      
+      grDessine(GRF_MeilleurProduit)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x10fae9f21c501556
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

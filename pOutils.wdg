@@ -1,0 +1,210 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pOutils
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x15a68d7e0647df31
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAAorH3KwS73FJm323hAQUgrPWMR/0PwG+mm33B5XbNpkSp5rSxgS9pLLelh4wLV7VSdlWw9hsZPvYSkvTbsFlMMDv2OEVBQhqpA
+  type_code : 31
+  p_codes :
+   -
+     code : |1+
+      
+      CONSTANTE
+      	// Statut de la commande
+      	STATUT_DEVIS = 1
+      	STATUT_BON_DE_COMMANDE = 2
+      	STATUT_FACTURE = 3
+      	STATUT_COMMANDE_ANNULEE = 4
+      	
+      	// TVA
+      	TAUX_TVA = 20
+      	
+      	// Civilité
+      	CIVILITE_MONSIEUR     = "M."
+      	CIVILITE_MADAME       = "Mme"
+      	
+      FIN
+     type : 720896
+  procedures :
+   -
+     name : InfosClientFormate
+     procedure_id : 1560089893341355825
+     type_code : 15
+     code : |1+
+      // Résumé : Formate les informations du client
+      PROCEDURE InfosClientFormate(LOCAL nIDClient, bAvecCoordonnées = faux)
+      
+      // Variable
+      sInformationsClient est une chaine
+      
+      // On recherche dans la base de données le client dont l'identifiant est passé en paramètre
+      HLitRecherchePremier(CLIENT,NumClient,nIDClient)
+      
+      SI HTrouve(CLIENT) ALORS
+      	
+      	sInformationsClient += [RC] + majuscule(CLIENT.Société)
+      	
+      	sInformationsClient += [RC] + FormateCivilité(CLIENT.Civilité) + " " + CLIENT.NomClient + " " + CLIENT.PrénomClient
+      	sInformationsClient += [RC] + CLIENT.Adresse
+      	sInformationsClient += [RC] + CLIENT.AdresseSuite
+      	sInformationsClient += [RC] + CLIENT.CodePostal + " " + CLIENT.Ville
+      	sInformationsClient += [RC] + Majuscule(CLIENT.Pays)
+      	
+      	SI bAvecCoordonnées ALORS
+      		sInformationsClient += RC + RC
+      		sInformationsClient += ChaîneConstruit(<§@1f06fffc0075a07b0001§>,CLIENT.Téléphone)
+      		sInformationsClient += [RC] + ChaîneConstruit(<§@1f06fffc0075a07b0002§>, CLIENT.GSM)
+      		sInformationsClient += [RC] + ChaîneConstruit(<§@1f06fffc0075a07b0003§>, client.fax)
+      		sInformationsClient += [RC] + ChaîneConstruit(<§@1f06fffc0075a07b0004§>, client.AdresseEmail)
+      	FIN
+      FIN
+      
+      RENVOYER sInformationsClient
+     type : 458752
+   -
+     name : MonetaireFormate
+     procedure_id : 1560089893341421361
+     type_code : 15
+     code : |1+
+      // Résumé : Transforme un monétaire en une chaîne de caractères
+      PROCEDURE MonetaireFormate(local moValeur est un monétaire, bDécimal est un booléen = vrai)
+      
+      si bDécimal ALORS
+      	RENVOYER NumériqueVersChaîne(moValeur,",2fS")+" €"
+      sinon
+      	RENVOYER NumériqueVersChaîne(moValeur,"dS")+" €"	
+      FIN
+      
+      
+      
+     type : 458752
+   -
+     name : FormateCivilité
+     procedure_id : 1560089893341486897
+     type_code : 15
+     code : |1+
+      // Résumé : Donne en clair la civilité 
+      PROCEDURE FormateCivilité(LOCAL nCivilité est un entier)
+      
+      
+      selon nCivilité
+      	cas 1 
+      		renvoyer CIVILITE_MONSIEUR
+      		
+      	CAS 2
+      		RENVOYER CIVILITE_MADAME
+      		
+      	autre cas 
+      		renvoyer ""
+      FIN
+      
+     type : 458752
+   -
+     name : ValidationConnexion
+     procedure_id : 1560089893341552433
+     type_code : 15
+     code : |1+
+      // Résumé : Valide ou non la connexion
+      PROCEDURE ValidationConnexion(LOCAL sUtilisateur est une chaine, LOCAL sMdp est une chaine, bMémoriser est un booleen = vrai)
+      
+      // Vérification du mot de passe
+      HLitRecherchePremier(COLLABORATEUR, AdressEmail, sUtilisateur)
+      SI PAS HTrouve(COLLABORATEUR) _OU_ COLLABORATEUR.MotDePasse <> sMdp ALORS
+      	renvoyer faux
+      fin
+      
+      gnIDCollaborateur = COLLABORATEUR.IDCollaborateur
+      
+      SI gnIDCollaborateur <> 0 ALORS 
+      	//Nombre de rappels du jour
+      	REQ_NombreRappelsEnAttente.pIDCollaborateur = gnIDCollaborateur
+      	SI HExécuteRequête(REQ_NombreRappelsEnAttente) ALORS
+      		gnNbreRappels = REQ_NombreRappelsEnAttente.Comptage
+      	FIN
+      FIN
+      
+      
+      // Mémorisation des paramètres de connexion
+      SI bMémoriser = vrai ALORS
+      	SauveParamètre(CST_AUTOLOGIN,COLLABORATEUR.AdressEmail)
+      SINON
+      	SauveParamètre(CST_AUTOLOGIN, "")
+      FIN
+      
+      
+      renvoyer vrai
+      
+     type : 458752
+   -
+     name : ExécutionRequêtesTDB
+     procedure_id : 1560713110179868323
+     type_code : 15
+     code : |1-
+      PROCEDURE ExécutionRequêtesTDB()
+      
+      
+      
+      //Chiffre d'affaires du jour
+      REQ_CASurJourDonné.pDate = DateSys()
+      SI HExécuteRequête(REQ_CASurJourDonné) ALORS
+      	gmoCADuJour = REQ_CASurJourDonné.la_somme_TotalHT
+      FIN
+      
+      
+      //Exécution de la requête "Top 10 des produits"
+      REQ_Top10Produit.pDateDebut = gdDateDébutStats
+      REQ_Top10Produit.pDateFin   = gdDateFinStats
+      HExécuteRequête(REQ_Top10Produit) 
+      HLitPremier(REQ_Top10Produit)
+      
+      
+      //Exécution de la requête du CA par jour sur la période des stats
+      REQ_CalculCAParJourSurPériode.dDateMin     = gdDateDébutStats
+      REQ_CalculCAParJourSurPériode.dDateMax     = gdDateFinStats
+      HExécuteRequête(REQ_CalculCAParJourSurPériode)
+      HLitPremier(REQ_CalculCAParJourSurPériode)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1f06fffc0075a07b
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : "Total HT : "
+     index : 0
+   -
+     text :
+      fr-FR : "Téléphone : %1 "
+     index : 1
+   -
+     text :
+      fr-FR : "Mobile : %1"
+     index : 2
+   -
+     text :
+      fr-FR : "Fax : %1"
+     index : 3
+   -
+     text :
+      fr-FR : "Email : %1"
+     index : 4
+   -
+     text :
+      fr-FR : Les informations saisies sont incorrectes
+     index : 5
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

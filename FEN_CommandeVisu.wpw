@@ -1,0 +1,572 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_CommandeVisu
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_CommandeVisu
+ identifier : 0x2f5105924c6b14f7
+ internal_properties : CAAAAAgAAABxBkQyRFXOsbH5HbAual7nWdUcIs61SoYZYEw8nYOnU5n/E6Rw0n0n1o5aMr7GqsVUQ/xKs2XSBhWJ/bDDkgtxaXQxIKIGR5tNtSrgtm+Ro34k0YEA5YS4joolDhN9nsv2mBgbhrfHRNHDROV1yFwLspR/mTlCS6dni+Gg2jqwNQVJSbYPJy2vM6yc6FQdR1Tu0l+xQ5QUeP01KjpSHeG2xeH/Hv4HTaG1dAmEeJGyFuIizMyvs8UcdvtR9XcTo76qPV7mO8kwgD6q4z6gpSal3EVjXPRLYwCgTsllSecjbkwA/oEuOaypUKYLgtDEaF5N0rwfPo1zN7xJrl0Sn7ndk3L24qslisOvzcccie0J7R/jrcTjleZnoWhOsNrxLzY75iplZz9XHSRTuFZE0xOGB7pFU/fr/CGcp1Emntpf5BdffCdwTcj9RB8ERG8MNbvUHVIC9aK4COKqRukW/G+1NJAgjJZWc1L4UF+NmVvP1YuwbNaPNKtZ9SQ8mnnFJwL/QXk7BJVbmrqxzZJt6PCnXnf1Q9DgXwfirlB8JqTpEKZ0OZvq7HoyDpdCbSZJMAqNorKO5z1uE8lybOxZBepCoZIHrM9LtiUmSp6skC74Z3xnALl63Vg8FWgK0k9Z4OlOlr7QA9vjB+4f14+E3CPCiuVsBw6C62R5t3vKXa++Z8mJb66WJj0jM06ltcXPsCLzdnCAEPcbHxWDU6MBPpbrfm4qulSVk8ZbgzGQgMUMV4crOknDNzw5w0l7UWujdPs=
+ properties :
+  width : 590
+  height : 811
+  heightMin : 884
+ controls :
+  -
+    name : LIB_CHIFFRE_AFFAIRE4
+    identifier : 0x259b942222f09d97
+    internal_properties : CAAAAAgAAABOEMaWM9MdJILATACOe6Kyp7v17DDUViGO+GFwAwTH5A1KZQB5UNmBfKV7gzJOzOTbQRlZLcT78imUnfDtBXd+Y5Xa8DtXI9EHhoD2X1J6j0B/Uq5dENqo2ISy+5vcT1SyTX2fMLb1di3d+Fyr5YfrrVwFGi9GcPBgJutn94R7huGeJyH2JL76gVdFB2WacRvNd/yMpsjh491JszMizFvWvhL1BTCD4xy++HoLyL6RmY9YWdizC1bXGMfLqIwBVHYCpny20SWg8dItGocAoCHlqrvFx75dqvT7Eq+zTHIQUDTRcxHGc8ZYm48OTFFDDJjC4VuWCzW4W7yw7vDEfaZVrzDd4yimCiNLTyMN+Jq6blus1tFXB/mhqzCddhznlQmtGKYxFm4NvNKB/X2fkn/QBrjpFRLqTuGKtDaqj2VRVw711DWgcCMeH69fQRCH33P1mAi8cP7KtmSp7upZuhT9nz11/odTK9G4vw7dl6l5hW7ohHQmwwWSGerWKhTZ9LVV3Q==
+    properties :
+     y : 18
+     width : 578
+     height : 34
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_CHIFFRE_AFFAIRE7
+    identifier : 0x259b9443230a202e
+    internal_properties : CAAAAAgAAAApzxrLUBmKn0B1GySQGPPgUGB8xq76QO3V+4Fgo/X3QjWT1IMcKYeU6NCJczdHZEE2YLCp3CBKIuqf9H55r8UGOibmIvh/e5jJh/4rw8EbqgofXAwDv5RtsikO0bQ0n//HuKeSXDFxX4BwL75m04yP5vCCLp9Qh7U5n/zCgTGrJU4O9HUDAeGr9oGVmfyIje/N5HNNFKqUrSIt3/Qy83pNubGF1kSMrqovUOh+SR06mQYn8xBKaOyXyf1LhPxJdRVNxZB103Bfs6jbmiAcuwRXBA8kAkOSD8baNP23MDMkGFCxmIocAzv7xzmnlcsCS3AzBf2wdCStw6svihSKM+N31Eh/4k2w5WH+VQjvpnVrS6nciPqc6XKFnS0nMWl/5+10USGTgvUxHV+c0bZFLsmoe5djJq/cwPud1uvUkB5iUfRWBHQd4mEjVYuSkvRwd3Vsl7yH5gOMn2j9T0jFVWH9jtdWxjmpm0G9T9phjlXCpa7ojO/Frt8D+Q==
+    properties :
+     y : 168
+     width : 578
+     height : 34
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_CHIFFRE_AFFAIRE9
+    identifier : 0x259b9451232357c1
+    internal_properties : CAAAAAgAAABltnBH9/NOqtJ+KV0wTgYdNM93ohLjtqU8x6MGwlax/o5ksU6aqwxlnf3WiTDgTQlc/V+R8xvsnaVYq7LrfuTX34uUOxZPnH6znFQHpysKkzS5K9GTOETweofjvqx9p/wrSOmjY1AKnXr7NznopOtpfmxhOCwYs8DzmSqm7WUoB/bAfuw98FeU/oDdvWjgVOiPVSeM119NzVBl6HTt4hlUHps6oQGqv+Jv4QtR3oHj7c9dukrRGKQKgDaxFtlbvfHI1sEtphNAuyVNDnLbbwaHp4Alxj5Lel7T0vFJM1ngyk2EmzjTojCJ2MFRxUx6qW645Aw6Kb+2/3wbBECvJdO3a6m4wM6tbMW7l8iVSSd7+XCjvyoRQNdTNnERUzBRS0G98xb3Y3roS3JY55D03EEKqjzgR7ZbFRuboElGs2ZENZh1u63nlDT7kLtpt0ZGYpM7OeHg0iwo4DjNrfq3GIvQhvhvjVHB/1JpmrO09Hl9VBZBHNYi
+    properties :
+     y : 342
+     width : 578
+     height : 34
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_CHIFFRE_AFFAIRE11
+    identifier : 0x259b94d4233d565a
+    internal_properties : CAAAAAgAAAD23jcCEWvlnfFGPkFtfTuhn1zgZgCso/dlAtMU9PphP+uBJVyO+noYhY1gLv5NthpwlFfDTwQlgdVFer6niXwA3vQqaFXgW42C2AhkTTZ3FXBPGohh238cwyCEsmzaVqGHDkllP90G2fQNmE//HPHtdJpXepo1z30ldWSeMeGJFIfPMUzySbJb7So3ojy4cHxE8iX/h9Zn6BUANB5cN/gRDpcoOJNLb4CHYhWJeR1SLYwmdcEnLkFdOYbQat1CdEeeNbcCHRU/LUJWfwdy9WctvaOff2GTpYru+ZzgTvXnTP/ZZ4uChI3nHRL2dHlk1naQkWiX5klfp314tdPGpzwXy3gmZ21/qQMaGtckwFsksUi2aeUazDxJkzIaZivtTIHdMrNJBQtKChJhNSjs91d+RHmM2wHJxOmLeLWIkytK2uDSqKc/1CssTomXmEe6/JcWuiD98VdqIDPaa6NHJ81L/dWvSZ/Tjhx8Jj8iaPj9pOmOvBT+ujOHGEkqsQ==
+    properties :
+     y : 664
+     width : 578
+     height : 34
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Info_facturation
+    identifier : 0x259d54e327701e43
+    internal_properties : CAAAAAgAAABqJC99vyQ6K+s/Aq8F+qEpom4rYcAF+ti3Oy7+Kh0Si6o4y/0A3H9BXTGlA8GLQf38RltcFVpbH5wrLIdmskpSkqKSxetK4fnxeHAH+7nKYB5NYKaw67YThKKAwON9u1bac7vpIoEwjwv7MwVlvu2gtexbu/WTF7E5Z12VBl1klJTcpI2zvENAqf/PVGRbyuGzzJdyo33i7hU0EmqAqARv4iOw6CjwvEF+0bzKlKRlx6xNX3MxK50EhUoPTYuCknCkkR0OHV/IEPxzy5aJgLbmu/0+2zi1FGR+DY8vfyteBv20D8zZTwtDH/CZRKlkIOMILqtqgicz1YpuOp6CmvizXBItcGs6qoezg3sqkpMeBBOLgRrfU1i+VDXHTY/i1vXqqQk1y0Zns6sxGHGbOmJrjhW3CvcxCOEhGs7R0yLN2RiP+RlBpXqb/Bc6WYu+NXH0+ADWTuMwezM6HgrGHPM5JUUkbYMd8zc5kfCrG9wkNCLZbwg=
+    properties :
+     x : 27
+     y : 214
+     width : 535
+     height : 114
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Info_livraison
+    identifier : 0x259d550527a2a4ef
+    internal_properties : CAAAAAgAAAAi3vOoX1NHQqYrCCAQcTxYxLg61S03OhyPWiI4+Zx+36QomnqfzWhj5Vc9dr3RVbBpmuNAxRJ1lHKp41AdBJxzvgb1GYQNPDQg17tQWHl7foUKJ94lXmsTHPuJe5sAMho7NVxWa81fm/naSJswof7YTEPvj9LGMXPjuFrE0dZumCrjRmth6XSJjWeHj2GA9CQoBwzPxPbEimpydQjOzICjQMrJjwzBiwtJweZ3zN9W7pjIszEZhLXOyEeao3HAbvB1K2ZioffPl3Cn57+n0MT4eoRYNtxyN8w/iYbGqYWLXPib2J3lRqByXAb5XZfpROvBrUoooJ0QTqY5Gm4QpViFk57MFcv9VnhWHvXTyTnHo3ecLGzTS2+UuvukPuqDcBUD2ZZdRSBIsL1+sFIKOVIpsQ0QDS+xFxCBLbnwpuuQzNYiWLvFJqHlseFg+M2lHUfl2rVLvtKTGX32U68t+/UN4tpGKsDxUeSMl0VzQUI1UTcz
+    properties :
+     x : 27
+     y : 388
+     width : 535
+     height : 114
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_InfosLivraison
+    identifier : 0x259d554427d49862
+    internal_properties : CAAAAAgAAACrEtp+qlse6b2rew8LdBj0rCbu9H8T3aIO4iaA1zuzB1dMXgnxzv0jch1TXLwCFTRcUcslYNSvjiJwk4SZuWoCQN+pbZIaJw82umxZra0LeNTUCXY+kRASn6jluyMjBsCT/3zZIfi4VLm+6tnHmOKQ5jiLu1do1IXT+UlpUsFOPLdo0yZ+4Ya+Lv6AXylaO1i0d2WphK4dweM4ch4ymguqjpDClaz0qaRGcsI0+dKx81HRXpEYBIBX4pyeu3bucv/0BHJTsRVuZwefLhqmEoBRrbahVA6FxmedK/4FmhE8gxlp3t250cfKdnLU+qICUHSQcaRPqKenfP00GRYnPhj4oOv0rxNonAKO3xYY4RV6o9OYIMk/6fBPRQXgd8jAIiJYptmjXCqkPTuthKKIFPMeqqS/dLHWN9vx/kt9jXM5zARaPc7ZA+7/jDDB4dWVlyakaOGaDpcQ
+    properties :
+     x : 27
+     y : 710
+     width : 535
+     height : 92
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_N_de_xxx
+    identifier : 0x259d5574283f55f6
+    internal_properties : CAAAAAgAAAAfuE+b32IJrdPyg1cPVCsTHqfj0c7m6mRFEr4brNbnDJyfCVa7y6CE+W/U9TDTAhMIRWTLI1CPv2WlzJDxfjMUEEbr0QtDk5dCMAp6Dj+eZsh0kxXy4qFiMcO7kV8fpunzCM9X1P9oG08lbLMamoCxJ7Ud+lbr1lkC7UoyvILCFQCgZTPk1gxEAkHMpzntGBH7afzYQFU7Lz8yNTnW1vqqNel4rQJPKkCOSc7Ab5XC+t7Cqd3Cxo8xJGJJvcxx4AKWQjl0S7+CX0Gg+Pr/apdyxuAFAhfWb8eCjlahy9VPSTUXYXIsvs6TrRJ0LpRSjF+AqOFzZ/8fAloeCTfh0JtUZhUxyAOtMFGO6oUVymP/bXRs0gP3tsdfyAF2btQrdyJkduk4T0WuhzWzMFxSVUTemRIJg7QRazsyfZS+WMVFIfX01PwjJnNTL3ivpuCDAXc+1YT8bE2THSXAsVq4xe96r9UOutLfzz+fmWSwEhBryqE0krO/GmHZPIswZeHxX4HmNy9n4Ps=
+    properties :
+     x : 27
+     y : 73
+     width : 475
+     height : 25
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Montant
+    identifier : 0x259d5574284155f6
+    internal_properties : CAAAAAgAAAAVrMHnwO0eWZ9etYn5Wi98sC3HjZ0JZcWRCAclWMOVG0S183aCEgYbpNo9QF2y2KuSayY2FHvq6X11sG6yrEG4JLfab8Y8kb41dcFkxmWn7h8VulI/cTNiCXSpi8dHl4izS2K9r+OPKjKmJQVxTQHpH5u490FKEuQUSpxmRf9diPDhtX2nRi8r5bQLHS1ms+o8ZqSJs/nJqHyCnDE9IRbhda0NW8w77uu8KSr25+g0+iOxyTht8Ty3cZqazTsYgz0DWImsoFf9s5l7NvoV1ZcyZayes6D48JZCuo113MzVOxnlQKJ1ogvbfHyr4KuwRWtGfGgPiXqCUoKGcqHblNjiR377gtITSVAQ+07HVvaZTTXesd9Bd83ZKVcoIMQdGWdovzox0X/0aXmh9LMScywsi6/J5N8F590ah4/Vg7oorL0czMlgNwkrnQKsk3NB39VA2WQmGgto3dzSnVccEAAOQ/cW7Q==
+    properties :
+     x : 27
+     y : 120
+     width : 475
+     height : 25
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_CHIFFRE_AFFAIRE13
+    identifier : 0x259ff1f8619607e5
+    internal_properties : CAAAAAgAAAD4zqSfXC6IVHqDn27F19WjbCLLJAXEo9cn+ECT7N6QlkTKXl5aGRpeM4SIvwCb1yZ4cRUCV1f0CKkEOPSj5LlLVNbBsbfR6JFyrwatR2ED6idLtjUH71I1N033TfzIXyUVLsBf5ANr18SBDL9mMVkzADWzEL2Z305InaztBKY2qY5GCaizilriB3ZhCc/sphuVZ9i/m1iwU6emQUpbzYp+6HwlNtuPKh/Mk2VE9byeiSnQydwSba7dUTQn1kr72xdlfRDzgQr1PTaz8ri862Q/TCmGrKX+c7bK4ClBssGOHLp5GIociQU1AwEPYVfmo1Bvh39CtmARf1O7BoA+/webkkZlDiEaM2/6ndAtXA/Nr296bgR2ybJRuauVvT27GyEAAJhOlfJk9Llkoo1sBzinUvEEsLdKvflG/lcwwlvCT2wKyS2bCgprkpJO6QbEFY9J04KdMDcTIOFLWfDBi2PFhXfWJeiEQqBO
+    properties :
+     y : 514
+     width : 578
+     height : 34
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : ZM_DEtail
+    identifier : 0x259ff1f861a207e5
+    internal_properties : CAAAAAgAAAD70u6Ag7yrIk+a9nZtqolcV4wQlrJ0llHRkfUHLEuAhn/uinIlkkhOaUucNmFOeILeBBeZAJw/7tWeHNoR1AQSNEjwlIBm9JE3E2kJGBJJDfgzSTH9GwdgFm3RR9IOX/l9+DRbq2Mf9NCqJ11qoSaNTz8SzrKQorGIEmFD11wxo9AXAmE5MM7sULDw9HBFduyoJWnBLqe7F2W30A8qfiQKKZrJz89yMpNTqftcBZn5aE+HMbUZpH5bS7rM58IYVSru7rqAuDr5R5QkR3Thv3cI7XWZJPINymgziBREX9Nz/Lw9qAr+GJ2TmsfGEuIF2cJdpeQZc8qWegQWI3TRqc6V0NygJHlJxI0w4EkQ9mkUdh6ZwpkYT0gYh+8v/yR/mwZyFVO3MeXb9goRWjtvoaXyLN3UmC9WpgIFUaRPZ48262b/UBnIYqBuPih0Gj540VK4aAp9nKXoEYxa3Km0PJzOXqeBMt2lScQhUDAxsDS6ydw4nl/+Y8VEML2ITIH9zy/1Zv4iul5SKqUYR9V8fvz8OYugrlrLioG0hpHCk7LEnSNDfGLg8dQ0rK/GoY1neTvqm44WqumYq4ZvQdqN+dL4KR76GX6iIvXNQWpMlwE3GQfB8L98B3K5+xTqWKjJI4UjA3TrUBPnLjDycHvJBULCKCVdyjEuEz+g+npbitte5iWhIgmmieMyP75hyLN7etw4nhWuarvmIrvGdKfsTiwFyJpxZUYzmPnpwgyamfpf8SI/BDSaCi0HPOhcMAD2DA==
+    properties :
+     x : 14
+     y : 553
+     width : 562
+     height : 98
+    rows :
+     -
+       internal_properties : CAAAAAgAAAAYIgExWBglh61ngMrZn0YVRrJM14B6OGAs2Ec3KfTq5nIciuWdzhYHcXdwd/zG7ZzUIdjjHVxLKO1wODlthKStX2NrXamEhL4bzKaPBT+Z8IBfF6PYsioameccHue2yFgTw+zAzi7eL1sb2FRe23rpaf0=
+       controls :
+        -
+          name : LIB_Produit
+          identifier : 0x259ff1f861a407e5
+          internal_properties : CAAAAAgAAAApMUCBDyuCh5t9c9Bq7BhiQaTS6GdkQ61Fzi7vEFOioHrmPxhb1IriFZ/wtdkN0uRSQqI21SpOxRE7FnbTH8lzyYUXDliPvT8W6zEiMZHotLwfQgsURjDoN4oFqx5xEM7/a9lMQnQtJaWPGJUDYBJ1jMuAJ+y3h9ohDMbH1Xyc2BR5xuKpwOtye+OkExd5YdDITsjj9L2gpW4tc3933Opj4XYyLvx+58cDFoCeRROFCBGs5wujvhNly87hKdqo+XIF1Xg7uoXhFJc3znzkU5jK5//Fm9aGl5QokDv4vDPptKkq7Rdzc9y57DaCY+Lo2so6XKWmTs+xpFoAlKQfqgxlzojHW3h0Hp/Iley9QBJ0Xbe8PaFrarzHxBiOfcG/0fqDTd3Ef65jSG7fvx5IA6cYuQcq3Fw6URYG2aO0L9dn8sVhOBCY59UnT00VlC67Jli15Uph7RfNYDZwd/BrgH3cDQ==
+          properties :
+           x : 15
+           y : 16
+           width : 200
+           height : 25
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : LIB_Quantité
+          identifier : 0x259ff1f861a507e5
+          internal_properties : CAAAAAgAAADxilGkcZ3X5zrZAJtn8nz2EURhfbKO2g0sLY5GTjXYRQxpyI2RNPGDqXte2CLLrhMgLINpBcpu8aI2rMyTTsab97lAW6KpxOg9KqLWfY4iVqZWKKKnybaOgY3cAqt3m86ajWv+vwDF/Gk6IWGJEjlC0TXe+2i6KBQCQB5kPrP1mVXMAmHio+tRPzuKCXmLjvxmKipGvCOLLBowypKPoS9ULfY+6jh8W2S/cwvK9OFOpjIJgUbjZV/6zciC1GwHtm3R9sroA17BHdLB81ZeK906hqyaS5OXk6bDyAPnOTa5Po9/M60aWzp43byZS0A/rYzx/SX2aWHFKAbTFUtAOLGyHZi9w0cFuDnIxVykmqT2zPN3vmbT6A48As5bVFBexk/OtC2R/9pbvolb5sxXJdjEDZEeXtIIuGe9la+TNwsFOthPCjimZmRidWZyXiY9PbUTcXn/T0qy0urZjC3m2PrEjGM93RMe+Hk=
+          properties :
+           x : 215
+           y : 16
+           width : 77
+           height : 25
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : LIB_PU_HT
+          identifier : 0x259ff1f861a607e5
+          internal_properties : CAAAAAgAAAAQd/RfLBsNJHlPuvsCAdQk1deaxRQtxJw71yRo9I8zS+AdSQs1wX8ZcNy0zKgixuiH2H5vGIWtSavSjxYiq3yThNwgpL1tSbipJuQ5mYYvTJn55osmFA4RdTrcMsyeChTVUZJkH8mTBFZJ/vUfkm5rQuriOkzWV01pr9a2GcoLMwQSOMbCXQX/4omBifeYpzcm8DKPNn6TMv/tzFlUyz/sMzaGMG3cnqwni9+GUGZXf/caqOrDKFeOk4cET3Zxe0TeToeg8ThCTg2NcAXPRofYRQQLRFvV23CFLyZ8k2v5bospKpeXnk0/PHb0K4k0gWWcdnVgBVlYcqSkrWTb9Tg4lQRD3naiK/wrOIswr1r0ESr3i7ACRVMJjvKJs+x9cIvGBF9vZFB3jNCKUcbFrJ4NpLg+UgAtqOCNT/DGV3BnQL5j0jVHOpqxL/s3UNYorm4lV34Z7J6326cVK798pNCZ2zIZ8usxd1g2
+          properties :
+           x : 295
+           y : 16
+           width : 137
+           height : 25
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : LIB_Total_HT
+          identifier : 0x259ff1f861a707e5
+          internal_properties : CAAAAAgAAAD+Y7tTW3pQ28k7SdXUrWbDRrtQe+cce1kn0NEzk3w2EiQOPph1Hx/myIqE0F9nH6J3Jyjpkn/VSqnmn7iAtXYPPgcrXyc0lRUvUHUyCa720lHTt/Kym7QuXHIwtICPhn3S+OXf3nBM4ne0IDV6x3wJ1TOa8wScdDypqnpzXNwAqAQgvLaMogR06NezHBSOuJUIIxozzl5wLNhBC3ajCyUqa9bt+fyWl4eQ+Pv8spcvLyfn9YQiDJxn78sPBU+0vG5IFJr6Ssr3n6Hzy63eU+ZYm9IM7A4vOidJcV9U2sgI4l9/RYEq/oa0dFS5v/oX8nsu9EpwtDVtHx72iDAQLJ0Au8wOfhWQPIlT5NzSrn+LpRq1ujatLepItmjW3XeuN4sm+mIPqdi+s++seoTB3tIsf4ljy6imiIY9Ta+4ZavBksWu5zKIPncr3x5hAXGgfo/gyuLoU2Glzid6tjIFpykhAyfTHFr8u3UUDA==
+          properties :
+           x : 436
+           y : 16
+           width : 125
+           height : 25
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+     -
+       internal_properties : CAAAAAgAAACnRqCfgSh9qxwuu5Sepcsd1UVWZQYYA3MTeIfEtxJgvd5b8KnM/2GvzimC+S4lALngtRXXU4GthenJWZJgy4feDalgRtNL/NqRhUR2z+wCRuTYyemVOBGOdXCnawTcbFASF73x/vFoTIImBjrBtQb9ZPrHKRiD
+       controls :
+        -
+          name : LIB_LigneProduit
+          identifier : 0x259ff1f861a907e5
+          internal_properties : CAAAAAgAAAD86oIDEVeR0JYEITHwoUFR6AXjtogY2Q53D7Hfnqf9oyNV2S27stA08UMohnAO+lylishxg9x+dddcK4rGTQ/irRdGpyfY0e+bjt82tdatscwdL9Ir0Yf7RMeA6RtvUUq/JktaJN8YR8v/papke1KbCSNai6oC2tRJnfTLMdeorDK5ANiIBSfYLjZVrxZ8ySk2F9G854/f747HPaLxSoq2A6AJF5c7hCPAfmI4euhh4jkFtiEosyzKcf1PitIYVBg1Sf1Ejjul+jQwLYGh+LdSzhd0s396DxxYlDLOJseZL2gLIacpFyVK6w4XWMQmrPx8MUb79CWE9TWiQrO0QtF757fxvB1N/ORon602uBZKQPSDg5JSbY+fwtNP115sTxMdew4IbSmnuq5f9nsOmB83sVdqp8oHDN5Nzi7oAAR83Fusz+zVXqprZrL6gzI/3qo7mFHiR+b6cdjLu7LNDoUNqxsZLklYkKXHlV0=
+          properties :
+           x : 15
+           y : 64
+           width : 200
+           height : 25
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : LIB_LigneQuantité
+          identifier : 0x259ff1f861aa07e5
+          internal_properties : CAAAAAgAAADjBSuJZ5Z24a1dZ2q6dJssQZo4A6JIkWw1uBb0ba524eUDaCnqD8uTVU3+3cBKKDCJp3kq7Jgs7KlNNXuhZT/x0YC7SscTeGMsg9I0mOrwAy9pAn1tFTs8S5dJjZamrb0wKETFF6gEWTExmFdTzbRuC4E/+8JBZQephij0aBdc3xW29ah4ttqbx7soZ/lmWlPCyaN8o4pDuBtSuHeKv9UAwYrPJDpkmAgAZ4hxY1R6D0UygnpUD4McRxWvjDZC4UF6a4gynz+FzMECEY3yfN8O6E6zcrbUhH2nqY4/d9DwdSPO1WVk2ygHcQ1PloMv2LaynAVGnLRRrK0u4/8tnoOtj5H0SYxskqnBXvVzb1gSSRxesXKy5ZK3nR+ylzGBlKBuLYFDlfWvSH/OqKhsXjIv072h88O8maNhle7m7tlDui0SW6V5Tp5j5WZdiC28hRb4aF5dTeMDiiONz+HE8wDCelnSreKE4JcgfCqc+A==
+          properties :
+           x : 215
+           y : 64
+           width : 77
+           height : 25
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : LIB_LignePU
+          identifier : 0x259ff1f861ab07e5
+          internal_properties : CAAAAAgAAAA4NmCrNIDTwcNDylQ6ysoG+IbxlAvmxAgyfEszSvOdeEuhAHRoM+5j78DXi6fKwAOl/zYYF12UBPFqFk8hy/VbUkBZsvaCRykvJn5ET+FxrdxMaWIU/6vseDr38omfHsNUTeA3VYg4fFW9iUufQ7hd1sVtsYv3KPf81dvVJBFEvetx8eA/XSDx9Y/KoMCZOt4sFQ1jlIx4qwLmA9pOqM+MvhA4Z2XGyE4YCHU2oQ47zOgZBEu6oqCEx0zFfODNxqZOd6eKhGUewVHxZYMmizSR9HJQ3PP4EcqzTJhDV9PZQoN+WPvTlyXGr9JNFj9+IUeWCKzem/SgNUstGRd3JST4K8V9948QpW4fxaV5veHBpAR2HEgzFfEkt1K22fMGq6vMwzDdXs02L1923y9NwKWxGv14OC5W12cGc0Gccdr1AjXY6ZHCZc72q8oiCqe9U+0gk0NKSzu2P4m6nm4IHC32riF5bYI14FNx4DLsT8HXFA==
+          properties :
+           x : 295
+           y : 64
+           width : 137
+           height : 25
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : LIB_LignePT
+          identifier : 0x259ff1f861ac07e5
+          internal_properties : CAAAAAgAAACZQv5+hvWtqopRMKRHF6VI1QejdSH2B83j8n/zFGrSMGVxXGj24fM8kVfVP1yW8V07bQnGqbDrHX/4I+NJq0Il2CAnDQ0n6CHrJSNjQ75yhd/iVGl/X+fpv/shF7vuplRwAH5bvwDKI3hEJdfg5OYx5eyJ9Demq31k1eqYEVEY77+UtrkYZTHUTKN9qnMuFaGnOcyCKUAEoqK6B5QiLWYxhrcJXmU4A2KCsQsYmGcNENYbctSuwGwVWvWNn/5vI8PnRKIKSE+4EvwaAPJQIzSi5U3P6+MPDWxfUrNvJMZPljFqZlOB1rNsp4+0Cl7mNM1A2h8n9RsBc61W+Ssr1tw3MNGHNhRkmTMQNvOBfVFIYH1CkITE1n0OJb4Bh0XvFszAcEJrEl8Z8l0r6ACI594wcTOq67rW6FqtfVfgnjP8lgRoWwTOGgv9MJZFX3NtyWCtoSEvvIjEkK//b2ltFXs3uEjGae8X0FAz6w==
+          properties :
+           x : 436
+           y : 64
+           width : 125
+           height : 25
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x24bfb6fd13ab2bf1
+  internal_properties : CAAAAAgAAACEo9FaJEmz3vJwGo1PAUVkgmdCUUiWgkljcOoiA66EUH0m8wqwwBNGdv03atidyae3Bj85N4WNPe4q84kw3Z+StkZYShkShYrCuhfZIpTDS4ruTAuRnDDGPyvSmzXT1I13/hRJVQDudlWxAtMImHs52XgTeieKrSSuna/3sjPb4Ymv6SgJTxvtk9dMDYdeefZyRY5jYvLICFs6CZF8chgPlHMLHjB34UFNC+m7lyXgUcvT8ksvx/YLsN1w2ptiU2tOO6p3jQcBpptqp+iEI9yF5bDso+UE2GFqS+oeBlYxt1XEB8I6x36HbXM7e6ZVHymLqUtQ5tJEc7nj6ij5nYkwGozec55gUzkS4pz8e4cZHcGGjArhuchl3M9dNXZWjbDmbDgH1UwxpmXs55m0GPa6DIXSx1jmmI7LL9rjFw==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2a2505a900438be8
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options :
+   -
+     name : OPT_Modifier
+     identifier : 0x24bfb74d13bf64ee
+     internal_properties : CAAAAAgAAADIdrzmfk46pxhgFYuts15Vf8z6dTzEyM7xqNE0eswfj5sNKy8YiYF5xWtIVJFU9HUoqp5lPPHy7GF7pZK4KMd+KO5wUfTr69jE0449503HE1CVhgYHCMSVqT44UP1hUb7h92n5/HV7lvfUFoY54qTsCAqOEiUq11CSJNq8hiYWUGp7jawocEBJBJ5huDNSL2gjoZc43MWn5v3xVohhmf56C6uWTHIrHKuf6oW7rGQc2CyTRIOIZCCHiITMNp+DT8MtuH+QMJ4WV7aBLWTaIXJYXQFwSxp+QzADmM3w/tr/4ebn7d7lOQLY6gI=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          Abonnement(MaFenêtre..Nom,NOTIF_MODIF_COMMANDE,gnIDCommande)
+          OuvreFenêtreMobile(FEN_CommandeEdition,gnIDCommande)
+         type : 32
+   -
+     name : OPT_Imprimer
+     identifier : 0x24bfb74d13c0656b
+     internal_properties : CAAAAAgAAAC6D3j4HnH+uEC3IMOSgTY8KC03jchx1LEaxnpIWyS3C7K3cNo6JfhNOda6xqCCJR5o5UC3Z6uYl3/Svl/hqtTbW5stzKn9EANFpW/OLgPTrcuECDTQWSO58lsNH/oZ2872wPRGo5ndiKXnXGFE4eN+mnjJIAt6uBWuVP2ZSqk68AodwbABZ5ogDngL8h8yXz+bZv1Y0C6K3DVeLqdeg7MDhRXTAzdfZ8l64Yal3yNHnKDGfpzLAPLwk03++UbwqNdBcYxkvz7d7EglAjIqwU1kxL5cyLJsesw8XTYARnFTEVl5O/D/WpMNfHrMbA9t38jFFLdQdLKd6kV3Dax2Yj6e0yUOOw6C446spNyIGHlfQuAzHxEV
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          sChemin est une chaîne 
+          HLitRecherchePremier(COMMANDE,NumCommande,gnIDCommande)
+          SI HTrouve() ALORS
+          	
+          	iInitRequêteEtat(ETAT_Commande,gnIDCommande)
+          	
+          	sChemin = ComplèteRep(fRepDonnées()) + DateDuJour() + "_" + Maintenant() + ".pdf"
+          	iDestination(iPDFGénérique,sChemin)
+          	iImprimeEtat(ETAT_Commande,gnIDCommande)
+          	
+          	LanceAppliAssociée(sChemin)
+          	
+          	Ferme()
+          FIN
+          
+          
+          
+          
+          
+          
+          
+         type : 32
+   -
+     name : OPT_Action1
+     identifier : 0x24bfb77513c100a1
+     internal_properties : CAAAAAgAAAB4FooNHOrtHUCvsiHxkpNzZ6UVn7a9BOJPj+XPDHOJJoo49iKPK/bDO3UUM92m/+O1W+GP+/HSVEvERkz/0PpFNBVwXJ3b22nIeF1lN5O4qJfE/cydhICiWIuy7HAcokdM9xaGEn01UxudEAcbAHaF72IdUYC3rhkSw+HxCcxkNo1yy/BOMhcFwpBx7tzl7ysb9jqf1WixswlI8bXe3RX37KRnMDYRC8iIsXCTcU5wrYZMXGyntzD4+z6bIU+xGarBFkfs9uXczvXhQ4PBx8XYZCXRU6vkoSkf3FlDusvJ//+21DK/EE64s4VFr627BvcE1U5r3w==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          HLitRecherchePremier(COMMANDE,NumCommande,gnIDCommande)
+          SI HTrouve() ALORS
+          	COMMANDE.EtatCommande = gnEtatAction1
+          	HModifie(COMMANDE)
+          	Notifier(NOTIF_MODIF_COMMANDE,gnIDCommande)
+          	Ferme()
+          FIN
+          
+         type : 32
+   -
+     name : OPT_Action2
+     identifier : 0x24bfb77513c2010f
+     internal_properties : CAAAAAgAAAAW/NyTArgb+56VgHMPpAHRzctHVexr2igFDWtB0i0njJjWGEA1wdTh2VP6xWM4fWEpY/Gr/0menHekenDb9F6RGEU44AGzD9EMuKlp+088pNscDcDhVCwiTAM2OLxYTntA925Sjk1xqydFJNsXXJIZ4/JVlQRHEqF+2/PnA5ZSpGvYYUawtBVvMH4jNHa/1Zm5DCit12rPZb+Ou4PIByPt0oqVfqCjKdLeB5qxU7CW61SSchIx6e46+UztH0mb/xBXrN1i8OPe0Ms3KeVjJWd+isN3Pb2KS1N1Yt/FBJGDNbXsgoRpruDKgdMTmVfhWEXyOyQFMQ==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          HLitRecherchePremier(COMMANDE,NumCommande,gnIDCommande)
+          SI HTrouve() ALORS
+          	COMMANDE.EtatCommande = gnEtatAction2
+          	HModifie(COMMANDE)
+          	Notifier(NOTIF_MODIF_COMMANDE,gnIDCommande)
+          	Ferme()
+          FIN
+          
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADh0ye2do/93rEmwqrsEnAKF4VfaAffwWTMYG551tcZLPPso4zvQ2EHnEJosj3+C6L6ccNAwv/bCMeUkyiKOdoPQMI5MqLPRGpwH8bY/JijSOkecHypET9SaRy9Jg==
+ code_elements :
+  internal_properties : CAAAAAgAAACXiHbz5sxAgg5oBw263mrRnl5QmeWZ2tcO8dL8nvaYYNJAxuxYRbm37sT8zEv+32HGTo1rg0gLMk+wPSg2esA=
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure FEN_CommandeVisu( gnIDCommande est un entier )
+      
+      gnEtatAction1 est un entier
+      gnEtatAction2 est un entier
+      
+      //Recherche dans la base de données la commande que l'on souhaite afficher
+      HLitRecherchePremier(COMMANDE,NumCommande,gnIDCommande)
+      SI HTrouve(COMMANDE) = Faux ALORS
+      	Ferme()
+      FIN
+      
+      //Et affiche cette commande
+      AfficheCommande()
+   -
+     code : |1-
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      si MaFenêtreFille..nom = "FEN_CommandeEdition" alors
+      	
+      	//Exécute le code de mise à jour pour FI_Commande, la liste des commandes
+      	ExécuteTraitement(FEN_Gestion, trtDemandeMiseAJour) 
+      	
+      	//Si on a supprimé la commande, on peut directement fermer cette fenêtre-ci
+      	//ça n'a pas de sens de visualiser une commande qui vient d'être supprimée
+      	HLitRecherchePremier(COMMANDE,NumCommande,gnIDCommande)
+      	SI HTrouve(COMMANDE) = Faux ALORS
+      		Ferme()
+      	FIN
+      	
+      	
+      FIN
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : Notification
+     procedure_id : 2257699088723857346
+     type_code : 14
+     code : |1+
+      // Résumé : Appeler lorsqu'une mise à jour dans l'IHM doit avoir lieu
+      
+      PROCEDURE Notification(nNotif, nParamNotif)
+      
+      si nNotif = NOTIF_MODIF_COMMANDE _et_ nParamNotif = gnIDCommande alors
+      	Desabonnement(mafenetre..nom,NOTIF_MODIF_COMMANDE,gnIDCommande)
+      	AfficheCommande()
+      fin
+     type : 458752
+   -
+     name : AfficheCommande
+     procedure_id : 2257699191803096591
+     type_code : 14
+     code : |1-
+      // Résumé : Affichage des informations de la commande
+      PROCEDURE AfficheCommande()
+      
+      SELON COMMANDE.EtatCommande
+      	CAS STATUT_DEVIS
+      		MaFenêtre..titre = "Devis"
+      		LIB_N_de_xxx = ChaîneConstruit("N° de Devis : %1", COMMANDE.NumCommande)
+      		OPT_Modifier..Visible = Vrai
+      		
+      	CAS STATUT_BON_DE_COMMANDE
+      		MaFenêtre..Titre = "Bon de commande"
+      		LIB_N_de_xxx = ChaîneConstruit("N° de Bon de Commande : %1", COMMANDE.NumCommande)
+      		OPT_Modifier..Visible = Vrai
+      		
+      	CAS STATUT_FACTURE
+      		MaFenêtre..Titre = "Facture"
+      		LIB_N_de_xxx = ChaîneConstruit("N° de Facture : %1", COMMANDE.NumCommande)
+      		OPT_Modifier..Visible = Faux
+      		
+      	CAS STATUT_COMMANDE_ANNULEE
+      		MaFenêtre..Titre = "Commande annulée"
+      		LIB_N_de_xxx = ChaîneConstruit("N° de Bon de Commande : %1", COMMANDE.NumCommande)
+      		OPT_Modifier..Visible = Faux
+      
+      FIN
+      
+      //Informations concernant le client : informations de facturation, de livraison
+      LIB_Info_facturation = InfosClientFormate(COMMANDE.NumClient)
+      SI COMMANDE.NumClientLivraison=Nil_UUID ALORS
+      	LIB_Info_livraison = LIB_Info_facturation
+      SINON
+      	LIB_Info_livraison = InfosClientFormate(COMMANDE.NumClientLivraison)
+      FIN
+      LIB_InfosLivraison = COMMANDE.ObservationsLivraison
+      
+      
+      //Montant de la commande
+      LIB_Montant = ChaîneConstruit("Montant : %1 TTC (soit %2 HT)", MonetaireFormate(COMMANDE.TotalTTC), MonetaireFormate(COMMANDE.TotalHT))
+      
+      
+      //Lignes de la commande : les produits avec leur quantité, leur prix
+      zmlSupprimeTout(ZM_Detail)
+      POUR TOUT LIGNECDE AVEC NumCommande = gnIDCommande
+      	nNumLigne est un entier = zmlAjouteLigne(ZM_Detail)
+      	ZM_Detail[nNumLigne].LIB_LigneProduit = LIGNECDE.LibProd
+      	ZM_Detail[nNumLigne].LIB_LigneQuantité = LIGNECDE.Quantité
+      	HLitRecherchePremier(PRODUIT,Reference,LIGNECDE.Référence)
+      	si htrouve() alors
+      		ZM_Detail[nNumLigne].LIB_LignePU = MonetaireFormate(produit.PrixHT)
+      	fin
+      	ZM_Detail[nNumLigne].LIB_LignePT = MonetaireFormate(LIGNECDE.PrixVente)
+      FIN
+      
+      si enmodeandroid() ALORS
+      	OPT_Imprimer..visible = faux
+      FIN
+      
+      //Selon l'état de la commande, on active des options précises
+      SELON commande.EtatCommande
+      	CAS STATUT_DEVIS
+      		OPT_Action1..Visible = Vrai
+      		OPT_Action1..Libellé = "Transformer en Bon de Commande"
+      		gnEtatAction1 = STATUT_BON_DE_COMMANDE
+      		OPT_Action2..Visible = Vrai
+      		OPT_Action2..Libellé = "Transformer en Facture"
+      		gnEtatAction2 = STATUT_FACTURE
+      		
+      	CAS STATUT_BON_DE_COMMANDE
+      		OPT_Action1..Visible = Vrai
+      		OPT_Action1..Libellé = "Transformer en Facture"
+      		gnEtatAction1 = STATUT_FACTURE
+      		OPT_Action2..Visible = Vrai
+      		OPT_Action2..Libellé = "Transformer en Commande Annulée"
+      		gnEtatAction2 = STATUT_COMMANDE_ANNULEE
+      		
+      	CAS STATUT_FACTURE,STATUT_COMMANDE_ANNULEE
+      		OPT_Action1..Visible = Faux
+      		OPT_Action2..Visible = Faux
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1fb3b8bf00e4834e
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

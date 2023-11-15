@@ -1,0 +1,446 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_RappelEdition
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_RappelEdition
+ identifier : 0x2f549fbd20f85386
+ internal_properties : CAAAAAgAAAANWaddP6r7GIxny24uha0UWPwWPe4W+vg0n7sVxsmXSYwPHOHNBhVg3IsYNT8XeaxJJhAS6QiW5POidLFV29au5J8cbhyg6Mkmki7TAgGJ4hZUPcyBhVBA810qTtJw0u5up3wuQTidLsyPap+OiCSBFUi34/M849MjE7JlCyVf0wF3AsEXP+sHMp31yPUcMYsLurr0xrdR2WYrihXcXuYlupLEffK9exzaJ4PSwtyCmlEPEaaWNcjV4dZax96KHWvbP7Jr0rXXCCe2LbAEJcB3Ejqs6eDEnAfacDw9D4xF1vs9SO91VnlVXagDDPVdLtDeq6kke+b1pUosrRSG96Vf0Q5zHldAp+dyv9SzKkrKrnTdGuD0W7/DiV7O0JP9ApL6xqnFl7KtxJF5fyovpGAbulJAoeVEYsJdjxaOpZcM6QRxo6cAFGgq6/2DdgJVQsD9zSkCFfNGh02y3Z1ZjcB8uQJ5fJYVcxVbTM7pXhr2dgwiudorL59ozBw3AMacyi3mDywfgDTbZTujPJLETRF4kzNWqf5riwCBskcmLx9QHU9sSGc+a4wH/637OxMw36XeFFPYSeDU0IBUoTT4wlMZtmbMjAqZf1seK7HYn4nSKOuz33jkrfnml2nE3aLPeTpo/PCxXY8M/KAW+bopyWJ3FVpeq1579WFClbNE0UPGlk7MnWoklLAULuQy4pnLVmkkN+HGf/TKd1jH1WaaaqnUb3YLPmS+MS8F
+ properties :
+  width : 593
+  height : 420
+  heightMin : 493
+ controls :
+  -
+    name : ZM_InfoRappel
+    identifier : 0x2f549fe22100e391
+    internal_properties : CAAAAAgAAABrc9zv5eOS3OnGUc9zAMpK9aCWFJqpWsaeeB8km3adznULBo3QNg0IVE16x46JDHfX2hGQLyn16ghnHTMoQw1j14BctZCcTeeENOcmFQi/olnVlwXUM7uRJE3wQaXEqu5S5t14xK+vKOhsVUkuwE+ybYZ4aA5qZ06XqAEaRB9h5tOK14mbqZ2UAvhhtBfg+p2j4dS621gl6Rcv1N3pxyXuK1xXSL56EF+6mQ8NgbjLf70X+tYVeOiAjoLIsJ4FQmQcjzh524l8RYX1nIGHtpwjeujP1AMuOmH/rSM8EzoKmUP0dcUsvkkLoqZwwZi8Hlo79YaH3MIrrD5LLMty5TimB8pj6Y1OEnLAxGmSxTZ6Ja6LHXKc9tne6wdeRRPWWzZ7HwT6DSLiq9ag3uC2XBEy+FNwT2zSLFV7bfKdYp8gWVB/Dm/GYmwBFMRcPwXUUrIMQgu7by8llOO0V/NjcwX44vzbEudW8FcUEP/3IJdHe5v/tkWEjfgu94uf975Qg3wKBFdH1uE22Ei+0R36d9Fy44wIgtOfcAQBpORx1tuPNfm92qgsm66RY7ltgivqMnKxovszg8o2Ik+lNJVsA96Mv/2s6eBikzIctd3+9dMHN0rUdNj4tht+3w1W6yRmTHFh8Az5NuVgc5zCM2XoeyOGB4ALAY44GyZjUEjQ4bQgW0xUP3dZZy5fhoi5WfCPO1pvmTSYSq9OU30M8V/sFJVTvSpG6uy++fhOneanP/Yb5WfvsLIOGBLCNOE3goa/RZPjyL32k9dQ
+    properties :
+     x : 16
+     y : 16
+     width : 561
+     height : 150
+    rows :
+     -
+       internal_properties : CAAAAAgAAAByQOxa+5NBLkBnqRU65nLAs+xTbLZPsWnVMKFjaqHM5EAHBB+SY9n7WceelZyk3tGOaRmo06m6n6tc7JmX0Gtjlvc9J9mb77VnfMH6Sm1K89KGMt8ABd99kr1CBVBUj4d6qb/jfR0EgFqSPEf+JBATHQMAwTU=
+       controls :
+        -
+          name : LIB_Rappel_associé_à
+          identifier : 0x2f549fed21090f64
+          internal_properties : CAAAAAgAAABpBbPca3ywhTcQVqKF7dncxov8ImP1bM++M3BddyKE34/pnOajz2eqAcX+Gqofj0sXje09wwtjt0rjoC7forhG8oYwIf8MBaEPC0GZZ/2TtGhVlEw9AepK7RhhRKqx3ebCGAn8EqqL1mdf/ksJ3FPor6DJTqZXxXVYBQDImZkJDQxuAkMvvrwA7ybdbuAnRj9Ng2/unIHDbdJX5huspNrfbUI4RSQL4u6cMdV5CZSJBQYl3SCjxcfBWiKtWejKL2OExcUkfoDGr8qz0Ia8wBpTWf0theCMZp3dN8YLifeD3tXOCsG6wByIgSWayk2Fx3IoNwnqIBS3nSo236Eb60VFh2HR0qyP4P8cOINvTf7OuNkrOtNvEb/jQpCkTlXFBRu3Kdnl0JcKsmzXkC6KV9Rw1mHXKgtEGGzNpSiWWX4qX6BWj9ZSJufbUAAgMXi+IYMmDqtqn8iYr9QSDILIGNZwl0OgD0GXwcjlQc7QGQjdfickopKJuZNYL8A0EHA=
+          properties :
+           x : 14
+           y : 11
+           width : 243
+           height : 29
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : IMG_SelectClient
+          identifier : 0x2f54c6673a9a5df8
+          internal_properties : CAAAAAgAAADTuCsTSpfV+8cNGeyvnOhDHAEXO4nuBW5xuUSHq4o4GcwnNKLdxCyPkgIDTt+tcM1VRai1ch/Xynug1wrRKzaJSUb2RkR+1dV74UURTuG1bcCSxMnivbaOgW+AB008vg3S+Z8gfBsWkEnJ9k0KXYCJ6gS2qdXaHDfbcP0juh3NoFFw4sgwf/5y8tkMdoUdcIkgtsvl1Cf7ODmE7aCo881AJsFEZ+FcnngR75hC/QK9gE6sHGsRiDAtkKYc1OA90UdVvC1GyfpEX/b7vQQV2IBEu3Lzpoe5YYqWSz/F/Ydmmm+IT168auAojni++jIo4PEh2KtG3PyrTI7XZGL+xBiuyCTROp7F9o//lsbnDcZ8zOpRH1EcIvAkDcmtEGp02A/4Ef5zQBfMdYKnQCXlvXvJsygH3RSXmAisiGbhRPSnoHnYokAHJcS7yL9vjMetjeqkkGzCeZqge+nC2DsTzL4wIioiUyXn25eG2NqstlFThSW+pqbyn88GYZD1+sGavhISnOHElFkJrOCLSW1VhK/KlgkiFeuADSEK8RTulVeuQ+W7ZkMsCALWB+HMoZuAP8mIhnm3yfIiQuZnHpzdRAJf8CxgdO9CnEh+YBOuw4PlpNNUYKkyg6TpnHoOy18YCAdx0MKT1j+tRit1nUoE8EYNVvwuQoqFLV6HdRoRNBGtPd3PV2j/fIhcwFxuR416SIbYeKXKzvcObMjVuXhi4f8OSrwq+mAZTViS3pI6W9eplSK1nSO1Q4/TVjf9hcdr6kIPZFPQAKgtTlo0/yL6FHwoV3saTTqIPZSlSVah0zFoD0CSgG1wWH9nu/6lw6WxgQTlgL35PJwSAwz9lxZyT34B/TwAEvoJRgrjpe/E+8DXkEAGzw4hFKkmMKT/XNvEaavbSrixQvHkFmXexx1ZglJN6UA2sxqPmQkVt0XS6cZcQuKHoTAZYUtuTbaWJaIrKgWdbtCmix65kq5UZHEcJA0VgXbe8A1Uitb7uScBqdd6uDhKHc6IcPMIiaz4Hegb8wVbO/WajbRFd6DW6UGCxVgyi2iTi2Pt/StM7M+0zZJWuXz8MA==
+          properties :
+           x : 532
+           y : 17
+           width : 16
+           height : 16
+          type : 8
+          code_elements :
+           type_code : 8
+           p_codes : []
+        -
+          name : LIB_NomClient
+          identifier : 0x2f54a004211c6832
+          internal_properties : CAAAAAgAAADPLzGZJixJoP7EUaPiQ2oi1++iYdlUrktBv/gnUSip2mX7v05EhBoWMXuraR0XX6MM7r2ITmZIvmOx/qbgqYsTcD4X4hwnFiWTDZa/mouFCyE5hiWBOppT5Lgr/o0CFpEBtezyVsfQFYPhNqgpMj+CImnkWEQowfjioxzv4NUgzFpwOHbWQwSRVBTxyqCIcj8JdUT3RX+sUJDeaNrFU52U4R4nk7pc5Oj1xsuH4fNb/GO88Jj5BCU0Fi52XU994mGVTZ82o6Pe3sNPYIZWT9FOuKLdnrx76QmmwIDqmoAeYKZpkg6XvrsSNR/hIb86pL9e/VaLp8Vq0Qn78r6cb6nHksblE4jfIrTjJ8Rm3e0ONVgwL1jGhPNazxe94CqqO62WE9QIcaeFRKn3OqzZXmwi9nbkNu5PT/NEJVDSQ6Pw3wNztwfrAv3+HhjzVrbz7Bfl4y0MoQaKBaBSJQ7l0qthjLvmEq5swl1io3nY6fXFtFRFwzB5owt5SuWUQnK7ZRAuTjGDrdTryiAg6JjM
+          properties :
+           x : 257
+           y : 11
+           width : 261
+           height : 29
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+     -
+       internal_properties : CAAAAAgAAAB5ufVb+qxKKUNiomAl9W3TnpmA2fEIeqD8ZGmVCI1wQAajKiMEwdUtV2PWX1J8qM846d9s+dvq1YHoeZL2K95Ch268TAz4VAa0OSrPBZyluhvJtZybiMx2096nPokLVsg99HKwojARj1WdN0z7JxcUHAIHyj4=
+       controls :
+        -
+          name : SAI_Date_du_rappel
+          identifier : 0x2f54a04d2155873f
+          internal_properties : CAAAAAgAAACEITZeIl4GKDVVLBZDlBfKnEQCivEPHM4fPqy6aEq101n6IeeAnaNPZ8OlsjpRPyZ0Yw/RLf46oHQPCPzLP7ixWaYYrX1mwM6x/tEfJNKsVvF+AxSN+enOuim7Z7CYRM3S0DE5ycwxAx9ktxWRV9Dm8HxzfJnfzNRCjTeEeI7H6KY3QXLzLFvaV63W1LV8i6gc+qT67pa1O8ofU1CcryCa/fahaGEBX2jfznmmUM9dniMXMfWNm+Op3TCjCI5OMV2RKObZfyXBQqNN64mjgJvic0z6oew10KlNMrcLgyKOZq7SZMCSyxR+Gq01ztGOB5k5oO04a7GRW0kQJfNEwnylB3KUaeTpABbcrJmtUd3GpC7I+w1zz3o7RuP5pNwEUTdw5gpVbEI3uWU5Of0QL/Pov4985aLjkXGsaqxCjlWGbuM82ayCCxGlOAzQwVvGNtj0kxnYTIS6YO0y8AlZoUicoaXdTHikT5Z5WWKz8pdfaUMtWg1bTCml2i1kUQla+qt7z3kE0u4BlCLh2pPCnNJGWKuMLlKe0qnRcsIV4++88A9rP8RBHRzH/+L8xjhlGatfoCdFcIlg85kdwf2hRrPd7FkO2Shbn95KDk5eD2oYHHnDo4tJgtNGvbS8LtDD3BWV9Fg0JA2stQg/uXsxKIxaMRtds/min1bKf0UYrn1nWVdsm8GDL5sDdtCHbbmTOyGMJc8k5pk2yX1H6x0QCDTs6UyOoHVIrS6cL+n4WQNF4iWxxFza1mhjt0P7qsdVHeLk5JzZytkwKdexHFcgJX2OnUOWIeNp+LleK4pTA0SyodHjogcRS63McomCMXVbkmEP8goG9j2Lsu3E9ey/zYWauNUO93+gEVTjaveTK7w5TtNPh6Pjl8UaBYG7tJTm3r2nom6xQBRJ974qz3kkRWqf+4fLB9jY65ZreH6kfpHztrxqj6MeuC4LnJqFrvYONlxx4H9x+oA/VC571Sn4LF++1foV1CAmK9AcaO0/n2xJ0BbQxhiaw0/85Knvtq62MeG6vonD8hbhta7Q9euncuZpZSXymbXNlXyCPZHGQ2pU+FJef5P9DuX8jDY02Jjg8oVA19ZmoEi8NJMjOA30iGbVcT6GFMKb22mmzSYSnkWSE47M447IORkUVlExnCp+DEO7I4XZLuysRfTw/wo7soDOtFe/aVl9N82D2B6TLD1idd/s7XCzffPoBmH/XPLaSItA9DZCfJj2Fbz8L9NukA4Xyx+mi2HcUX79H84J/IELqCFlfOZOBDUhjLWzhi4h5uWU2lBT5v3hSVgGsPsI7e/r9m73L0RIvo7vDBeaPkphkHITAfcD
+          properties :
+           x : 10
+           y : 60
+           width : 508
+           height : 29
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+     -
+       internal_properties : CAAAAAgAAACo7qZoqeH//FZdpxc4+HDGqeplslTtHwfz/DEzYrkEtMD78F8S/0G3ycsuTQz0JQU+6Z8QJWNuTV24uzBw1WzoHYRqusyy4aOpLgc8kAs83SxYHOH2aznrRP9oX+qqMSWYT9XddxsGgliQOkHwUmLhSzE2G+8=
+       controls :
+        -
+          name : SAI_Heure_du_rappel
+          identifier : 0x2f54a09121c89237
+          internal_properties : CAAAAAgAAACdPtvoO13nM8/ho7xqjmUTb40ITrZzyPFGQfPgcvJRldfVB0uVZyKdKuwSDUDnE6CYYNykb8z/DAVVXI2wszkwq2g2tTlC82Uw+udqdOgFtHK92CHrzZCF+7Z6DnpQALOZz2ZwVRg1tRpjDDjkxPitoo5vJ2q0oRtJUhXIbzRDXGEFyqq2l/smp/3ATaltYxFiaFQ3BysCHUi97Mtr0ZnVcNwQueHgz08BYkNXVHpQZ3VjYNetppHyC9zvLGd3ODDB/fIIhyT6oq69ihL76feiQ8/y7i3Me96usP99TunR5SAybxuHXJbLvpT7WhwDTVvG1CCRCF6WkI4oANTkvdOHzOIVzJHvbluCae4r27JBvAgICi32fgczc7/e2Ssef6Oier+rq/PgVWBkDiFV0yRJEmxRA1nO7KW6aQ25+FRt8fAjVlIDGgMNfSN/9SmiVyNoEYHiXInXpHSDzmIrmc/MIajEpEOE989WX8vWnaYza0iHvydG0puvHt7gvZChXpaGM6vOKAnCnPqxrzyI91bZ91zCzqjAGWZmBb66Fq8ZtfwxHpXpS/9DmNCR4VBYG0NghY7OHKIbwWaBzjQbNPI96I5iTVmzEgCy9W8DTW0g2fw3vYquGSztSqH3+rGqdlYJdC16zuXbyQS32nP6237WW1A9B4P4zAWjUqxFi+S/Kk7QoqpQaQRxy2nbC3VuBqprZLgcpiQ44IxKij/Nhb4prabrVfEcz/yF2UhJei5wVydqNa5bZB2cKe3coHkHm42fLQBcjeb3zPl//e1r34WXkZY7ZTk8pcYjcjNkQUXW+fjYLwSd/DmPwdFP3jC6UTey79iS8oQW3vQnLa+oPhoRbH/K+edlP1VTrrBmP72/ik6zFZb2JeGHlmpcPv3kASefZyHEMd5BOYuM88pWnFJ8zEer54JxOam8TPNzyN8eDa2LUbR5dcuyCDHeEbzg43uGSmWMIA2XyGXuHXHomVUyeug1leAhdxAiD5VJ2+8NSg/wz6wPwUNdEHDYHRD+vqmW855N0atLLGgoCl0UwzvKSkkHc+W3+g2iLPnQxKimZLpP6j9k1S/KLygPy+bpUb67oUepdht+pnUpJgNkvNovJcA7HIX5nEq6EYywBWIG0ey1nSBB6sB9QIrqFH5yB7SGowbNHfNwn1vDHZL7BnQ8GozRaW6hypPWKtGS9PiSk6bYxT/wDJWIEJBc8OeMpI1qjplHavig3Q2yEmB8gC2gsVLacCXURgN1/I7D2xWWqECCcx71xC1es061hr6O6A==
+          properties :
+           x : 10
+           y : 111
+           width : 508
+           height : 29
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1+
+         //Si on clique sur la 1ère ligne de la ZML, c'est que l'on souhaite sélectionner un client
+         si ZM_InfoRappel = 1 ALORS
+         	
+         	//On s'abonne donc aux notifications de sélection de client et on ouvre la fenêtre de sélection
+         	Abonnement(MaFenêtre..Nom,NOTIF_SELECTION_CLIENT,"*")
+         	OuvreFenêtreMobile(FEN_ContactSelection)
+         	
+         FIN
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : ZM_SansNom1
+    identifier : 0x2f54e1721ac104a9
+    internal_properties : CAAAAAgAAABFKIUTmEmo+EkulJ/OeNJPGRiZZ4Pv+NHR+IrPJlE2yMg+iOEgvAl/codWZchKJtQnq7SawuaBWk9LKk0VORjWXo4PxM2JCyPgoR4WVRlsAk8oIxCxLpeXlTg/aI56k8dZ6o1Q35oZfHCDsug4E1Jra/lPNT+hNt0mqV64SxK6c03hOBuzgfIJFOjXU2CAPr5I5TsJRgBLW8AsX1zKtlWq3CJ+El5sU4vdkar7adELOyv7dAY8+j3XHLqK+3FV/RjlWEmlWz6b/AKOnlApDmaIEQIEkuzORuuy0RnrNanl2ntZK7hWjqnpaOVAbq6KnWhXemsK9pfLjQgifMlS53jQDbMBluEzHyLBsayNWcZHf5GWqK1UCG7rTcrPkz8md2Bec91sXIeEIfIVQg+PIiEB7nfCuySE85lF84qF2Rzi7lrZLg4zpMn92KSEFGRPh1uEgogcoeMzOh7yAG/+4+yjBjX7uaaPXn1ZSCy/4gs0dASKRNbnvxa5yD1cijO4WYADUMSvtYB92Ztgw3Gku1BJpSNsZX8Bm3TyivHC1xECgIUxRrkll62lZLv+nR2UeRpMa7IvKb/HGLh3DZQzDDRBNRiYqF+mUXqTpcJUMwI9DPt5nPJhB5fasWBSgCT+OYDbTZL+we22/3ZwyrGjfjaJLg/DRWoC8OKYlKjJRIbseXlBLgx7GaI177ZFIA9+JHvaECPjjSslrZmybFX2A9BeKC+tIbzA6i9o8XdVmOZu9fskXS6Cp1GiFRmjJMmHiJi5
+    properties :
+     x : 12
+     y : 220
+     width : 565
+     height : 134
+    rows :
+     -
+       internal_properties : CAAAAAgAAADzw3OrOALMVw2wDFbXq//tSMfCe7OWxF6WtGltyH0QWO7bSsvUwQ29l5P+L+rl+SQq6bnEd8Gep8eMLoeB+knJbFWb5VtMVwqARR47kSgZzg9NeQDXVCA6n+pb2nH/GnB1rIpsuuRdVyXtw8ALw+vMmISBQLQ=
+       controls :
+        -
+          name : SAI_Notes
+          identifier : 0x2f54a0e621f1db41
+          internal_properties : CAAAAAgAAABkPqG6k2W1+lL07IhfcpiuCPaQD8lsgaDXD1o4KelqlrZ2NSqaBJj4vHYaQBC4EXwBMj3FjrU8qbcQNy+smueRA9VTaC8IHSPMQPV7niFBkDWxb7WK9C5fQXRGBgRdQLxApspCZE+8bqxKZZ76Wb+KMdjRWvi6bACcTvkKxLajerZdEGgmXmhRbIUAMUD8oSjm47DavlmCpQF8B+MnKtaWiBEaN1+O0dZm1uzcBjcUaLAgncCQmDwzelT3Vwvi7VC9dZ5bXugDeMqWLYHcHWZbPzo4AxIlB3Gtqnlv95LCqaFqeoUhbN7/NeioD+EHdM8oXa7yxfjhOlJy6TdKH0rWN+gw1VbRKhxVggy2fKAzrkgpOXe1sKi/XZMrO/5WdP+ysCp67kMVJLs56Rbas3j4ALIc53/UvJKlZQb/5jDzkx0VMSMREuS9FrDfTT/MzsOxhOEGIU0cn5NIJ4+8J3RlDB7gT1hBEFX3gBMfqTaQpXRLw1IXz7kM6MMtUQwhQ2EATJYMY+68o1rQARV4YZUB0i6GxZ1tTnCuSqRHXdX5UoyfW9DZ5B84t/SHnfwxZdpppD/DI3w1MI7lhWZnqloCoGMCHCbmMNbww++Ykepwf9u1sR9OFQC4AlUhRTi/MU+36cxxWREfGjXCO3UYbDEXLpf8F1mN+2MDYfik7RvT9m4oUkj6DBVjxT7OnyC9OibXv5Iadsm0RTMOt0V2IEbHj4eXM8ex4souAgNBfKhoXZcJOeqHr0OOtBKtmqUn32Rv+5sUk3Fc0pM9TzGzTkAmLZY33Mepbo++ycxtNXX0UYJ5r2LlzantBMmv506Imv4h4A3bo+Q0TJ3KQjJI7NEtyunSFEtOplUpJx7oOVZEPUKAFWt3n0qaRYa0Pq9l0NcrI+5TbCSS1wT3Qh5gvt6xXRWUHyJqakB9OlTE06gxjVVs397B9NN1wv/HOIQIorXpjzhp5hs6oka2nvZYHRAbz5xMuFxzRZLuOgDpUHpQLpScecIF9C1El3mao2x3vkp8PHRAJriWnAJG+CC1V1/iSiQlb885qti7vk6+iK0y/wtI1TH5VB0NeB3l3hskuH6sRRC5eawZ70rTwCPiYrgpR7i8h3wqTc0fPxG3IhKWmo2nn3eK3uUXOyYwmjJk9Ht9Pc6sUjZ9
+          properties :
+           x : 10
+           y : 7
+           width : 545
+           height : 114
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : LIB_Notes
+    identifier : 0x259b8f441ec39a1d
+    internal_properties : CAAAAAgAAABmEQO1mEf0Cugy5p1wE2r+X+6eK2+fePOZgi3t2bJuFzvNNP/q6m0tIImRhOvSrMH8pHdQfYfptC+wTiIFwyM2KoBR8AUec1k9LgsMa0zpZshEjijpxgLrn1x5QR+2RWihS+ewYyCNMI+KjHlRoebQKDmsHqrvTyHZ2N1Bx88z/ZmQcLcLqOykj4wWL874MP/YbQN0x/cmRWp92ZTXEWZs6sh8fgO5Ye62KtTIQFNWpaKh4F0Qzdr8I0gWjo5WcMVWdEEmRitbRYIVndgbttyxrMIiYefRZoXtdmeuPphB+0HA4hAH4C97LgyvxGZMh1qeynEA7yNqanz3sKp9hlLUkFpSblKjqR3zGKBjLaGGFgbRGNcfjJkj2ctA1Tf50YCyzQWFfqhC5nl+cKVw5MQS1kbH5HXYA9wspI4Vl3iXTebNO3PxQBCT6RPdhDJIOAYn/vxDAN3jWMH0dLpQuejcR5ON1tAvZCU2D8c=
+    properties :
+     y : 182
+     width : 578
+     height : 34
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x24bf87940d76f9b9
+  internal_properties : CAAAAAgAAACmhTP4lj8FQITKgP8Zs58uBOn8n4LcVLN9cugkDaiGancg5Tiyzh1wePcd5FofSynZ0CFfaXtnp7ic6Ysy35EEfwlHmvmi5aqCKtcpIvQDq2q+TOuhHEC2LytiOwWjBP1nHgSZ9ZBOlrXhwmMImNvZeQgzOteq3XQ+PR8XQiOLMXnPWfhpP5ttc+fM/efe+Xay9W5j8nLYeMv6eXHMQnD3vGsj9oi/6dnFMzFjT51Y2XPrquOHj77DCOUYIpOaq9PWU6LvBe8pXnOyL1D8uzRNLWgk+31MINnic5Jmvi5Jv13cHzqSD8afZfvjg75NNzFzwSPoProsCxELkoS/p4cyHI7YCfTKuZ+0RH7SERGXn0MAdhDvq8Zj3sFPO3xQi7LobjoF63ZnXC8moSc6YixsXlc8baZQDgR9kbzBNQ==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2a2505a900438be8
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options :
+   -
+     name : OPT_Valider
+     identifier : 0x24bf87b30d796fb4
+     internal_properties : CAAAAAgAAAAIaMrJxKEs6/823iN0SypoJtGd0dGXWYWvOAoLt0yl/UO0kO03jCBwL/hvnAG+UEcdxtUCkpKypjyikJ8/Mnl79U5XI9jDd3yFocDcKGwBqIs/byV4/aIqfjyyBj32R8A/HlCjb+nas4+MnLkLEkmxx7FRs38K6g2Ia0quzBebY3NUNdI0tI6BDy37rA9iizKnnYtinAlQuVKL6IG9uE2CQiBXNCovxfkRrrLZnRysTc7xu1kJz63jqkww8X1juR9XqusH39IOsJEnwhUZq+Jx75AcLMsPWusMi7TCbPOP3KrQiyA3M1rzVX+FOl17Zf2q7yQbLw==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          //Un client doit nécessairement être associé au rappel
+          SI gIdClient = NIL_UUID ALORS
+          	Erreur("Vous devez sélectionner un client à associer au rappel")
+          	RETOUR
+          FIN
+          
+          
+          //Si on est en train de créer un nouveau rappel, on vide préalablement les rubriques mémoires du fichier de données de rappel 
+          SI gnIdRappel = -1 ALORS
+          	HRAZ(RAPPEL)
+          FIN
+          
+          //On transfère ensuite les données de l'écran vers les rubriques mémoire
+          //Cela concerne les champs qui sont liés à une rubrique du fichier depuis la fenêtre de description du champ
+          EcranVersFichier()
+          
+          //Et pour les autres, on 
+          RAPPEL.NumClient = gIdClient
+          RAPPEL.IDCollaborateur = COLLABORATEUR.IDCollaborateur
+          RAPPEL.bOuvert = Vrai
+          
+          //On enregistre dans la base de données
+          henregistre(rappel)
+          
+          //On notifie les fenêtres de la modification du rappel
+          Notifier(NOTIF_MODIF_RAPPEL,RAPPEL.IDRAPPEL)
+          
+          Ferme()
+         type : 32
+   -
+     name : OPT_Clôturer
+     identifier : 0x24bf87fa0da58664
+     internal_properties : CAAAAAgAAADIdrz+Sn/K6GiBQ8d/3UfekeTOu6dZ3/XYgRcuGrjKOt/88BTMt1FuBoayYWTbTCFdR4kpElc3VQ/PI4elMuAhOy9UaXJPVglwA7Nc8/wYtPIrWhEm5Qg7TdVIn2Ey1+FSfsKys3oqSS1W2VqXR4DdTzUViLiRQhLa8t53nn5fOXUizPWL5vkhqborxRT0Deiwyxs2xJWgf1Cj66w7L0vRWI79k6syP1xZIgy3Ufqs/DB2exht2R34xQGyuvVJ6KUjPbusuexNddSfSEAYPR4wgFWv4y9we9C/zqP64wZugfi46hTpQQLY6gI=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          //Demande de clôture du rappel
+          SI OuiNon(<§$0000§> ) = Oui ALORS
+          	
+          	//ON le cherche en base
+          	HLitRecherchePremier(RAPPEL,IDRAPPEL,gnIdRappel)
+          	
+          	SI HTrouve() ALORS
+          		//Si on le trouve, on le modifie en base
+          		RAPPEL.bOuvert = Faux
+          		HModifie(RAPPEL)
+          		//Et on notifie de la modification
+          		Notifier(NOTIF_MODIF_RAPPEL,gnIdRappel)
+          		Ferme()
+          	FIN
+          	
+          FIN
+         type : 32
+   -
+     name : OPT_Supprimer
+     identifier : 0x24bf87fa0da686b2
+     internal_properties : CAAAAAgAAACa8wfw/F5i94SbEfSmZHbPWmNjeDRP5SPWJM2SvZVQ7PEikq73V4IkD1HDSsjovNw4Dv9nYqYQe/FXjWROeYf4B9afCLNqzOpLdGp0yllSuj9wjYed29EesAimVv1ZWWMi0OV3pLfWpDq152YmdRkIV6wSc5UbppYOBYMzc6IXb89WPthVMLtyn+kwp5oTdDFxvLORiv7tgcsnbmMXrGlmYmJF+BbaLLIBDYHsoVX9GYBckOraj6Wlb/f7rdDnP/o7/KeQqLZsnlJUBuN2Mti89fgr8qwP98FIVGPxBhmDS1NyYNQWafP0/FPb
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          //Demande de suppression du rappel
+          SI OuiNon("Êtes-vous sûr de vouloir supprimer ce rappel ?") = Oui ALORS
+          	
+          	//On le cherche en base 
+          	HLitRecherchePremier(RAPPEL,IDRAPPEL,gnIdRappel)
+          	
+          	SI HTrouve() ALORS
+          		//Si on le trouve, on le supprime dans la base de données
+          		HSupprime(RAPPEL)
+          		//Et on notifie de cette suppression
+          		Notifier(NOTIF_MODIF_RAPPEL,gnIdRappel)
+          		Ferme()
+          	FIN
+          	
+          FIN
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAABcwfWFq/dvlHGYsqMchCq92V/SOe/YYQswM5Y24dlrLNsM9wvY/HHLCKIsi0Oc8oyGRvYOkezUB+sq4BCdRZwICKZUoIvpMqQ/ya4nPjDaIm+kFzJMV9ySTxdRg==
+ code_elements :
+  internal_properties : CAAAAAgAAACXiHbz5sxAgg5oBw263mrRnl5QmeWZ2tcO8dL8nvaYYNJAxuxYRbm37sT8zEv+32HGTo1rg0gLMk+wPSg2esA=
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure FEN_RappelEdition(gnIdRappel est un entier = -1)
+      
+      gIdClient est un UUID = NIL_UUID
+   -
+     code : |1+
+      //Soit on veut créer un nouveau rappel, soit on veut en afficher un existant
+      
+      //Si la fenêtre a reçu un identifiant de rappel, c'est que l'on veut l'afficher
+      si gnIdRappel <> -1 ALORS
+      	
+      	//On le recherche dans la base de données
+      	HLitRecherchePremier(RAPPEL,IDRAPPEL,gnIdRappel)
+      	//Si on le trouve effectivement bien, on l'affiche dans la fenêtre
+      	si htrouve() ALORS
+      		
+      		FichierVersEcran()
+      		
+      		//Et on affiche les informations du client concerné par ce rappel
+      		gIdClient = RAPPEL.NumClient
+      		HLitRecherchePremier(CLIENT,NumClient,rappel.NumClient)
+      		si htrouve() ALORS
+      			ZM_InfoRappel.LIB_NomClient = ChaîneConstruit("%1 %2 %3", FormateCivilité(CLIENT.Civilité),CLIENT.NomClient,CLIENT.PrénomClient)
+      		FIN
+      		
+      	FIN
+      	
+      sinon
+      	
+      	//On veut créer un nouveau rappel, on prédéfinit certaines informations
+      	SAI_Date_du_rappel = datedujour()
+      	hHeure est une heure
+      	hHeure..minute = 0
+      	hHeure..Heure += 2
+      	SAI_Heure_du_rappel = hHeure
+      	
+      FIN
+     type : 34
+   -
+     code : |1-
+      
+     type : 165
+   -
+     code : |1-
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      SI gnIDCollaborateur <> 0 ALORS 
+      	//Nombre de rappels du jour
+      	REQ_NombreRappelsEnAttente.pIDCollaborateur = gnIDCollaborateur
+      	SI HExécuteRequête(REQ_NombreRappelsEnAttente) ALORS
+      		gnNbreRappels = REQ_NombreRappelsEnAttente.Comptage
+      	FIN
+      FIN
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+  procedures :
+   -
+     name : Notification
+     procedure_id : 2257612338978133519
+     type_code : 14
+     code : |1-
+      // Résumé : Indique à la fenêtre que le client relié à ce rappel vient d'être modifié, la fenêtre doit donc se mettre à jour
+      PROCEDURE Notification( nNotif , nParamNotif )
+      
+      SELON nNotif
+      	CAS NOTIF_SELECTION_CLIENT
+      		
+      		//On récupère le nouveau client relié, et on affiche ses informations 
+      		gIdClient = nParamNotif
+      		HLitRecherchePremier(CLIENT,NumClient,gIdClient)
+      		si htrouve() ALORS
+      			
+      			ZM_InfoRappel.LIB_NomClient = ChaîneConstruit("%1 %2 %3",formateCivilité(client.civilité),CLIENT.NomClient,CLIENT.PrénomClient)
+      			desAbonnement(MaFenêtre..Nom,NOTIF_SELECTION_CLIENT,"*")
+      		FIN
+      		
+      	AUTRE CAS		
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f549fb20143292b
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      fr-FR : Êtes-vous sûr de vouloir clôturer ce rappel ?
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

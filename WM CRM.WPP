@@ -1,0 +1,744 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WM CRM
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Application Android
+    internal_properties : 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
+    configuration_id : 12120541937586487188
+    type : 15
+    generation_directory : .\Exe\Application Android
+    version : {}
+    language : 1
+    telemetry :
+     status : disabled
+  -
+    name : Application iOS
+    internal_properties : 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
+    configuration_id : 314406586355250511
+    type : 18
+    generation_directory : .\Exe\Application iOS
+    version : {}
+    language : 1
+ elements :
+  identifier : 0x4f0458bb001215cd
+  elements :
+   -
+     name : pOutils
+     identifier : 0x4f06fffe024fa70f
+     internal_properties : CAAAAAgAAAA/GxcLuOXN3uklKHamPR0zf8yqclSfHNh2xVGuVPuTdVe5ULMSKjXcxnBqVt4S7uIqKg==
+     physical_name : .\pOutils.wdg
+     type : 7
+   -
+     name : FEN_ContactSelection
+     identifier : 0x4f0ac97e0287a6a0
+     internal_properties : CAAAAAgAAAC9mZWJNmNLVGO7kvzclKeRjcxUTHzLyOKO92gZwX4cxHyUvTacoK9WTPbg2FiIcGCoqA==
+     physical_name : .\FEN_ContactSelection.wpw
+     type : 2
+   -
+     name : FI_Clients
+     identifier : 0x40a0f60600c5c4a3
+     internal_properties : CAAAAAgAAACvq4ebKFXdjlkVGEZWX3Hn/5jKalkPah9WwCr/i5UBL81jjuXiGiXM9iCaZi6iXlK6ug==
+     physical_name : .\FI_Clients.wdw
+     type : 8
+   -
+     name : REQ_SupprimeLigneCommande
+     identifier : 0x4f56134400bf531c
+     internal_properties : CAAAAAgAAADTLwsfrJmRShXRxIISHDk3QwayKr6BXThKJHKZyda8vEDMYaIm3uEIMuzWIuIe2s42Pg==
+     physical_name : .\REQ_SupprimeLigneCommande.WDR
+     type : 5
+   -
+     name : FI_TDB
+     identifier : 0x40a0f128006bc0eb
+     internal_properties : CAAAAAgAAABwzqj0M2hAW2Sgl/EhjK6YUAc/F6ikcyCuU+0M5jraFj7AzzSXrbJbQfvl01ONdWtV3Q==
+     physical_name : .\FI_TDB.wdw
+     type : 8
+   -
+     name : FI_Commandes
+     identifier : 0x40a0f62200ce32d0
+     internal_properties : CAAAAAgAAAC7l+MnhMFpcn3J7Kpqx9Xb46zuDrRNg3hTyxvG+jXZX+Vrho1O9vkgGgT++ro2wjaepg==
+     physical_name : .\FI_Commandes.wdw
+     type : 8
+   -
+     name : REQ_Top10Produit
+     identifier : 0x4f0b21620486f7c3
+     internal_properties : CAAAAAgAAAC9mZWJNmNLVGO7kvzcipO1/Ui0VPgYx4NWHVnIM0xO6tY61zycoK9WTPbg2FiIcGCoqA==
+     physical_name : .\REQ_Top10Produit.WDR
+     type : 5
+   -
+     name : FEN_CommandeVisu
+     identifier : 0x4f510592021614f7
+     internal_properties : CAAAAAgAAAD2XN7C4V7W2eYuQQ+PnqSaJmUNpZWtp9629fb621Q46BgqwTKpU1yFv3ljXSXbpxnjYw==
+     physical_name : .\FEN_CommandeVisu.wpw
+     type : 2
+   -
+     name : REQ_COMMANDE
+     identifier : 0x409cd9620032bb6b
+     internal_properties : CAAAAAgAAAA1ER0BvpuTTBuDilRENA/5NWQctPV9QXaKPAPeQl489Bwkrdb0CBc+ZN7YIOAQ6NggIA==
+     physical_name : .\REQ_COMMANDE.WDR
+     type : 5
+   -
+     name : FEN_RappelEdition
+     identifier : 0x4f549fbd01665386
+     internal_properties : CAAAAAgAAABm7E5SUQ4myZZesZ8/8DguxonVdcGaZVKnlnplER7+OsZUX6Q5w8x1r2lTrXVrF4lz8w==
+     physical_name : .\FEN_RappelEdition.wpw
+     type : 2
+   -
+     name : FEN_ProduitSelection
+     identifier : 0x4f07135602ef3664
+     internal_properties : CAAAAAgAAABIxrBsWwAoMzyIr+kpi5ZoWNVnD7WZgu+2+bAbyiXvwXerIFOPtbpjWcM9u3t1DYNN1Q==
+     physical_name : .\FEN_ProduitSelection.wpw
+     type : 2
+   -
+     name : FEN_ContactVisu
+     identifier : 0x4f50a0e0010d7fa4
+     internal_properties : CAAAAAgAAADLRzPX1JGZQg2Z/Fp6PQHXI0D+5tj19kKKFKAA/BODTecZkOP+BgkwatTOKurmkgbOVg==
+     physical_name : .\FEN_ContactVisu.wpw
+     type : 2
+   -
+     name : FEN_CommandeEdition
+     identifier : 0x4f05f20f02724155
+     internal_properties : CAAAAAgAAABl4U1RbgsjPIszOmS0OB+BxWQsRHTeZ41O79rYjWIo+Ag4ucoEOEfu1E5IsHBgGIhw8A==
+     physical_name : .\FEN_CommandeEdition.wpw
+     type : 2
+   -
+     name : FEN_Gestion
+     identifier : 0x4f05b92007e8962f
+     internal_properties : CAAAAAgAAACutIaaKVbekV4WGUdXXHDOPrHdLbnjgiqz888i9TrSJtoQg/DhGyTN9yGbZS2jX1G7uw==
+     physical_name : .\FEN_Gestion.wpw
+     type : 2
+   -
+     name : ETAT_Commande
+     identifier : 0x409cd9c6003840d0
+     internal_properties : CAAAAAgAAABo5lBMeyCIk1zoD0lJL2bQSAUHnxZUSByWuHy1R8lL9TPPfPfvFRrD+SOdG5tVLaNt9Q==
+     physical_name : .\ETAT_Commande.wde
+     type : 3
+   -
+     name : FEN_ContactEdition
+     identifier : 0x4f06b36d03e2937a
+     internal_properties : CAAAAAgAAACzj+s/DHkxanXx5KJyCp1rW9qCWmLF7Q9fmIwn4zxeqkLy45BG/gEoEgz2wkK+ui6Wng==
+     physical_name : .\FEN_ContactEdition.wpw
+     type : 2
+   -
+     name : REQ_ActionCom
+     identifier : 0x4f54d5db0366bdb8
+     internal_properties : CAAAAAgAAAA4FmC8izB4o6z437kZ5ZoE8PG/Z2nyxIhKRLPa6Nc942WNBo1f5eoTCTOtC4tFPbMdJQ==
+     physical_name : .\REQ_ActionCom.WDR
+     type : 5
+   -
+     name : REQ_CASurJourDonné
+     identifier : 0x4f50f57b012536e9
+     internal_properties : CAAAAAgAAAAyCGq+jfqy7cpyZSPzgBzyKk3pSQN45EC20QshbyZukrZkbxTFf4Cpk413QcE/O60XHw==
+     physical_name : .\REQ_CASurJourDonné.WDR
+     type : 5
+   -
+     name : REQ_Contacts
+     identifier : 0x4f05c7590141246a
+     internal_properties : CAAAAAgAAABO1Kb6SXY+cX72+ad3BYwKpuu1FTuVTA6OW/CfwP8d22n1+plB+wQtFwH7xU2Df3Fb2w==
+     physical_name : .\REQ_Contacts.WDR
+     type : 5
+   -
+     name : pNotifications
+     identifier : 0x4f50a4c10133ba62
+     internal_properties : CAAAAAgAAAB41qD8S3A4Y2y4n/nZ2FaoGA8nT2A2x6Xqc79iuiZuQvIso1CfpapTSfPty0uFfXNd5Q==
+     physical_name : .\pNotifications.wdg
+     type : 7
+   -
+     name : FEN_Login
+     identifier : 0x4f0b0e5102237ab6
+     internal_properties : CAAAAAgAAABxzan9Snc/cH/37qhoGKOFaRhgKLig4KVODwjGReoogIioCYpQ9PsiGAL8xEyEfGxU3A==
+     physical_name : .\FEN_Login.wpw
+     type : 2
+   -
+     name : REQ_CalculCAParJourSurPériode
+     identifier : 0x459e344501e2d172
+     internal_properties : CAAAAAgAAAB+5FZKeSaOoat64Ok8AFALdnk15W/UaU+uY99VW0pC5mqQhluGc7KSDDGrFZ1TL6Fr6w==
+     physical_name : .\REQ_CalculCAParJourSurPériode.WDR
+     type : 5
+   -
+     name : REQ_NombreRappelsEnAttente
+     identifier : 0x4f50f4fc011d48c5
+     internal_properties : CAAAAAgAAADkYszo14ykRxCsw40N5BokzJM7oylppxauQ7ykO1oyNtZYV7wr0d4HPefRL/fpkQfxcQ==
+     physical_name : .\REQ_NombreRappelsEnAttente.WDR
+     type : 5
+   -
+     name : FI_Rappels
+     identifier : 0x40a0f5f100bf755b
+     internal_properties : CAAAAAgAAAAkIgwol8xkB9Bsg83N2e5gFEVz624MOg+WcFqPfZN5/wEBEnFrkZ5HfacR77cp0ccxMQ==
+     physical_name : .\FI_RAPPELS.wdw
+     type : 8
+   -
+     name : FI_WidgetEvolutionCA
+     identifier : 0x47ed0d3002ad0417
+     internal_properties : CAAAAAgAAAAhHRkNuufP4OISVK/UQuyRxfSs5MVj2Vyq49XcAj5ctFyElW9P61WIz3JsVNwU7NwkLA==
+     physical_name : .\FI_WidgetEvolutionCA.wdw
+     type : 8
+   -
+     name : FI_WidgetTopProduitsVendus
+     identifier : 0x47ed0d9c02b0aa07
+     internal_properties : CAAAAAgAAAAyCGq+jfqy7cktr1LTXD8qYhUx0eZEhp+Knx+K7iJyTvogK48cLp5Tmo13QcE/O60XHw==
+     physical_name : .\FI_WidgetTopProduitsVendus.wdw
+     type : 8
+   -
+     name : FI_WidgetRappelsEnAttente
+     identifier : 0x47ed0deb02b3ddd4
+     internal_properties : CAAAAAgAAABv60dbaBUdzpwAhnBy5iWmczzO3u2zfvtWJK4zV8nVc0Gvx5Yu1Ac6vWBapm5iHpJ6+g==
+     physical_name : .\FI_WidgetRappelsEnAttente.wdw
+     type : 8
+   -
+     name : FI_WidgetCAduJour
+     identifier : 0x47ed0e0e02b76498
+     internal_properties : CAAAAAgAAADZtYGFIh8XGDparckmvpie06byOo+F8wrqk7ko8j7UxDiUIkJmpJpQh7oknGScZFS8RA==
+     physical_name : .\FI_WidgetCAduJour.wdw
+     type : 8
+  other_elements :
+   -
+     physical_name : .\Exe\Application iOS\client.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\client.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\client.mmo
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\codepostaux.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\codepostaux.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\collaborateur.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\collaborateur.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\collaborateur.mmo
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\commande.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\commande.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\commande.mmo
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\lignecde.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\lignecde.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\produit.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\produit.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\produit.mmo
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\rappel.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\rappel.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application iOS\rappel.mmo
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 12120541937586487188
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 314406586355250511
+   -
+     physical_name : .\Exe\Application Android\client.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\client.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\client.mmo
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\codepostaux.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\codepostaux.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\collaborateur.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\collaborateur.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\collaborateur.mmo
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\commande.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\commande.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\commande.mmo
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\lignecde.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\lignecde.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\produit.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\produit.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\produit.mmo
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\rappel.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\rappel.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+   -
+     physical_name : .\Exe\Application Android\rappel.mmo
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 12120541937586487188
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 314406586355250511
+        excluded : true
+  analysis : .\CRM.ana\CRM.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ languages :
+  - fr-FR
+ wb_style_sheet : .\iOS CRM.wws
+ code_elements :
+  internal_properties : CAAAAAgAAAB25UuujGYW1e5TZqRelBhH6qtpnbiovg5NiLglfiqO0g7kxYRyq75HFVFLK0ds9OpuHemIiTYQ6ccfn8iawz37hnb0
+  type_code : 0
+  p_codes :
+   -
+     code : |1+
+      
+      //Au premier lancement de l'application, on initialise les données proposées par défaut en fonction de la date du jour 
+      si ChargeParamètre("PREMIER_LANCEMENT", 0 ) = 0 alors 
+      	
+      	pour tout rappel 
+      		rappel.DateRappel = datesys()
+      		hmodifie(rappel)
+      	FIN
+      	
+      	
+      	pour toute commande 
+      		COMMANDE.DateCommande..Année = AnnéeEnCours()
+      		hmodifie(commande)
+      	fIN
+      	
+      	sauveparamètre("PREMIER_LANCEMENT", 1)
+      	
+      fin
+      
+      
+      
+      //************* Déclarations des variables globales au projet 
+      gnNbreRappels est un entier
+      gnStatutCde est un entier 
+      gmoCADuJour est un monetaire
+      gnIDCollaborateur est un entier sur 8 Octets //Mémorise le collaborateur connecté
+      gnOrdreTriContact est un entier 
+      
+      CONSTANTE
+      	//Auto-connexion 
+      	CST_AUTOLOGIN = "AUTO_LOGIN"	
+      FIN
+      
+      
+      
+      //******* Initialisation des bornes des statistiques
+      
+      //Date de fin = aujourd'hui
+      gdDateFinStats est une Date = DateDuJour()
+      
+      //Date de début = il y a 3 mois
+      gdDateDébutStats est une date = gdDateFinStats
+      gdDateDébutStats..Jour = 1
+      gdDateDébutStats..Mois--
+      gdDateDébutStats..Mois--
+      gdDateDébutStats..Mois--
+      
+      
+      
+      //******* Exécution des requêtes pour les statistiques du tableau de bord, pendant l'affichage du splash screen 
+      ExécutionRequêtesTDB()
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Application Android
+     identifier : 0x44bfc2b6004ef570
+     code_elements :
+      type_code : 159
+      p_codes : []
+   -
+     name : Application iOS
+     identifier : 0x4f0458bb001315ec
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+ children :
+  -
+    explorer_type : windows
+    children :
+     -
+       name : Contacts
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_ContactEdition
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_ContactSelection
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_ContactVisu
+          explorer_type : element
+          type : 2
+     -
+       name : Commandes
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_CommandeEdition
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_ProduitSelection
+          explorer_type : element
+          type : 2
+        -
+          name : FEN_CommandeVisu
+          explorer_type : element
+          type : 2
+     -
+       name : Rappels
+       explorer_type : custom_folder
+       children :
+        -
+          name : FEN_RappelEdition
+          explorer_type : element
+          type : 2
+     -
+       name : Widgets
+       explorer_type : custom_folder
+       children :
+        -
+          name : FI_WidgetEvolutionCA
+          explorer_type : element
+          type : 8
+        -
+          name : FI_WidgetTopProduitsVendus
+          explorer_type : element
+          type : 8
+        -
+          name : FI_WidgetRappelsEnAttente
+          explorer_type : element
+          type : 8
+        -
+          name : FI_WidgetCAduJour
+          explorer_type : element
+          type : 8
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

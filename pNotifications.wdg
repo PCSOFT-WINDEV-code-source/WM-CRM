@@ -1,0 +1,120 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pNotifications
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1f50a4bf0046b5ed
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAATg0/xve4wicZFAFct843CLlH4KMwGTgIPcnHdrpvlQxlPPbUxFYHogVMs3CoCvDcCvZsKta/K1tFqjlW7zlpnOuCxk+8gzKkC2IvYG23sVdLRWZl66ZNg/vak90iqiel+aZDT002Vs/W8GHCZB4+Cpw8sJsNZJvNOFP+Rr+24KmSLcEIqbGvRuw==
+  type_code : 31
+  p_codes :
+   -
+     code : |1+
+      constant
+      	// Type de notifications
+      	NOTIF_MODIF_CONTACT	 = 1
+      	NOTIF_MODIF_RAPPEL	 = 2
+      	NOTIF_MODIF_COMMANDE = 3
+      	NOTIF_SELECTION_CLIENT = 4
+      	NOTIF_SELECTION_PRODUIT = 5
+      FIN
+      
+      // Tableau des observateurs
+      gtaObservateurs est un tableau associatif (sansDoublon) de chaines
+     type : 720896
+  procedures :
+   -
+     name : Abonnement
+     procedure_id : 2256485111908774552
+     type_code : 15
+     code : |1+
+      // Résumé : Abonnement d'une fenêtre à une notification
+      // Syntaxe :
+      //Abonnement (<sNomFenetre>, <nNotif>, <nParamNotif>)
+      //
+      // Paramètres :
+      // 	sNomFenetre : Nom de la fenêtre à notifier
+      // 	nNotif : Type de notification
+      // 	nParamNotif : Paramètre pour la notification, un ID auto en général (=> dépend du type de la notification)
+      // Valeur de retour :
+      // 	Aucune
+      
+      PROCEDURE Abonnement( sNomFenetre , nNotif , nParamNotif )
+      
+      sListeActuelle est une chaine = gtaObservateurs[nNotif+"/"+nParamNotif]
+      si position(sListeActuelle+";",sNomFenetre+";") = 0 ALORS
+      	gtaObservateurs[nNotif+"/"+nParamNotif] = sListeActuelle+[";"]+sNomFenetre
+      FIN
+      
+     type : 458752
+   -
+     name : Desabonnement
+     procedure_id : 2256485369606872421
+     type_code : 15
+     code : |1+
+      // Résumé : Désabonnement d'une fenêtre à une notification
+      
+      PROCEDURE Desabonnement( sNomFenetre , nNotif , nParamNotif )
+      
+      sListeActuelle est une chaine = gtaObservateurs[nNotif+"/"+nParamNotif]
+      SI Position(sListeActuelle, sNomFenetre ) > 0 ALORS
+      	
+      	sNouvelleListe est une chaine = sListeActuelle
+      	sNouvelleListe = remplace(sNouvelleListe, sNomFenetre, "")
+      	sNouvelleListe = remplace(sNouvelleListe, TAB + TAB , tab)
+      	
+      	gtaObservateurs[nNotif+"/"+nParamNotif] = sNouvelleListe
+      	
+      FIN
+      
+     type : 458752
+   -
+     name : Notifier
+     procedure_id : 2256487220737816110
+     type_code : 15
+     code : |1+
+      // Résumé : Système de notification
+      
+      PROCEDURE Notifier( nNotif , nParamNotif )
+      
+      sListeObservateurs est une chaine
+      
+      // Observateurs spécifiques de cette notification et de ce paramètre
+      SI gtaObservateurs[nNotif+"/"+nParamNotif]..Vide=Faux ALORS
+      	sListeObservateurs += [tab] + gtaObservateurs[nNotif+"/"+nParamNotif]
+      FIN
+      
+      // Observateurs génériques de cette notification
+      SI gtaObservateurs[nNotif+"/*"]..Vide=Faux ALORS
+      	sListeObservateurs += [Tab] + gtaObservateurs[nNotif+"/*"]
+      FIN
+      
+      // Observateurs génériques
+      SI gtaObservateurs["*/*"]..Vide=Faux ALORS
+      	sListeObservateurs += [tab] + gtaObservateurs["*/*"]
+      FIN
+      
+      POUR TOUTE CHAÎNE sFenetreAbonnee DE sListeObservateurs
+      	
+      	ExécuteTraitement(sFenetreAbonnee+".Notification",trtProcédure,nNotif,nParamNotif)	
+      	
+      FIN
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x10fae9f21c26143d
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
